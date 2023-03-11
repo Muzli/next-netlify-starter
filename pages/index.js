@@ -15,6 +15,9 @@ export default function Home() {
         <p className="description">
           Got started by editing <code>pages/index.js</code>
         </p>
+        <button type="button" className="btn btn-primary" >
+          Launch demo modal
+        </button>
       </main>
 
       <Footer />
