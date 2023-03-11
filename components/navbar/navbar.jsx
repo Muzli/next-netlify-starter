@@ -7,7 +7,9 @@ export default function Navbar() {
     <Nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-xl">
             <Link href="/">
-                <a className="navbar-brand">Formverk</a>
+                <a className="navbar-brand">
+                    <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
+                </a>
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
