@@ -4,7 +4,7 @@ import ArticlesJumbo from '../components/jumbo/articles'
 
 export default function Articles(initialData) {
   return (
-    <SimpleLayout preContainer={<ArticlesJumbo />}>
+    <SimpleLayout>
       <div className="row">
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">

@@ -33,3 +33,23 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+paint-background-img {
+  background-image: url("../public/backgrounds/paint.jpg");
+  background-size: 100%;
+}
+
+.garage-background-img {
+  background-image: url("../public/backgrounds/garage.jpg");
+  background-size: 100%;
+}
+
+.spoiler-background-img {
+  background-image: url("../public/backgrounds/carbon-fiber-spoiler.jpg");
+  background-size: 100%;
+}
+
+.lc-background-img {
+  background-image: url("../public/backgrounds/lc150_38.jpg");
+  background-size: 100%;
+}

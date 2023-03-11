@@ -6,21 +6,24 @@ import Footer from '@components/Footer'
 export default function Home(initialData) {
   return (    
     <SimpleLayout>
-      <section className="jumbotron text-center">
-        <div className="container">
-          <h1>Subscribe to GyanBlog</h1>
-          <p className="lead text-muted">
-            Learn and Share
-          </p>
+      <div class="container" style="height: 30em;"> 
+      <div class="row" style="height: 15em;"> 
+        <div class="col-xs-12 col-xl-6 bg-primary paint-background-img" style="height: 16 em;">
+          
         </div>
-      </section>
-
-      <div className="row">
-        <h1>Hey People</h1>
-        <p>
-          For understanding of this project, see: 
-        </p>
+        <div class="col-xs-12 col-xl-6 bg-secondary garage-background-img" style="height: 16 em;">
+          
+        </div>
       </div>
+      <div class="row" style="height: 15em;"> 
+        <div class="col-xs-12 col-xl-6 bg-success spoiler-background-img" style="height: 16 em;">
+          
+        </div>
+        <div class="col-xs-12 col-xl-6 bg-danger lc-background-img" style="height: 16 em;">
+           
+        </div>
+      </div>
+    </div>
     </SimpleLayout>
   )
 }
