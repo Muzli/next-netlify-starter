@@ -40,7 +40,7 @@ code {
   height: 16em;
 }
 
-paint-background-img {
+.paint-background-img {
   background-image: url("../public/backgrounds/paint.jpg");
   background-size: 100%;
 }
