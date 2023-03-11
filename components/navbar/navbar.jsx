@@ -17,7 +17,7 @@ export default function Navbar() {
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
                     <Link href="/">
-                        <a className="nav-link">Heim <span className="sr-only">(current)</span></a>
+                        <a className="nav-link">Heim</a>
                     </Link>
                     </li>
                     <li className="nav-item">
