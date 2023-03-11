@@ -1,4 +1,4 @@
-export default function Header({ title }) {
+export default function Header() {
   return <div class="navbar navbar-light bg-light box-shadow">
           <div class="container d-flex justify-content-between">
             <a href="#" class="navbar-brand d-flex align-items-center">
