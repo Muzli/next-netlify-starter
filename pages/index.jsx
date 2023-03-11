@@ -4,9 +4,9 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home(initialData) {
-  let containerHeight = 30;
-  let rowHeight = 15;
-  let cellHeight = 16;
+  let containerHeight = '30';
+  let rowHeight = '15';
+  let cellHeight = '16';
   return (    
     <SimpleLayout>
       <div class="container" style={{height: containerHeight + 'em'}}> 
