@@ -1,0 +1,3 @@
+Project is based on next-netlify-starter from https://www.netlify.com/with/nextjs/#templates
+Used instructions from https://www.gyanblog.com/javascript/next-js-bootstrap-template-navbar-header/ to enable react-bootstrap
+https://github.com/GyanBlog/nextjs-bootstrap-starter/blob/main/components/jumbo/articles.jsx is missing from above instructions
