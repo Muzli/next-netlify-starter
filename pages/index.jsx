@@ -6,20 +6,20 @@ import Footer from '@components/Footer'
 export default function Home(initialData) {
   return (    
     <SimpleLayout>
-      <div class="container"> 
-      <div class="row"> 
-        <div class="col-xs-12 col-l-6 bg-primary default-cell-height garage-background-img">
+      <div className="container"> 
+      <div className="row"> 
+        <div className="col-xs-12 col-l-6 bg-primary default-cell-height garage-background-img">
           
         </div>
-        <div class="col-xs-12 col-l-6 bg-secondary default-cell-height paint-background-img">
+        <div className="col-xs-12 col-l-6 bg-secondary default-cell-height paint-background-img">
           
         </div>
       </div>
-      <div class="row"> 
-        <div class="col-xs-12 col-l-6 bg-success default-cell-height lc-background-img">
+      <div className="row"> 
+        <div className="col-xs-12 col-l-6 bg-success default-cell-height lc-background-img">
           
         </div>
-        <div class="col-xs-12 col-l-6 bg-danger default-cell-height spoiler-background-img">
+        <div className="col-xs-12 col-l-6 bg-danger default-cell-height spoiler-background-img">
            
         </div>
       </div>

@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="container-xl">
             <Link href="/">
                 <a className="navbar-brand">
-                    <img class="img-fluid" src="/formverk_logo.png" alt="Formverk merki"/>
+                    <img className="img-fluid" src="/formverk_logo.png" alt="Formverk merki"/>
                 </a>
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
