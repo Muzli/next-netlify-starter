@@ -6,12 +6,12 @@ export default function Home(initialData) {
     <SimpleLayout>
     <Container> 
         <Row> 
-          <Col>1 of 2</Col>
-          <Col>2 of 2</Col>
+          <Col className="col-xs-12 col-l-6 bg-primary default-cell-height garage-background-img"></Col>
+          <Col className="col-xs-12 col-l-6 bg-secondary default-cell-height paint-background-img"></Col>
         </Row>
         <Row> 
-          <Col>1 of 2</Col>
-          <Col>2 of 2</Col>
+          <Col className="col-xs-12 col-l-6 bg-success default-cell-height lc-background-img"></Col>
+          <Col className="col-xs-12 col-l-6 bg-danger default-cell-height spoiler-background-img"></Col>
         </Row>
       </Container>
     </SimpleLayout>
