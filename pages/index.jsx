@@ -15,19 +15,19 @@ export default function Home(initialData) {
               Réttingar
             </div>
           </Col>
-          <Col className="col-xs-12 col-l-6 bg-secondary default-cell-height paint-background-img">
+          <Col className="d-flex col-xs-12 col-l-6 bg-secondary default-cell-height paint-background-img justify-content-center align-items-center">
             <div>
               Sprautun
             </div>
           </Col>
         </Row>
         <Row> 
-          <Col className="col-xs-12 col-l-6 bg-success default-cell-height lc-background-img">
+          <Col className="d-flex col-xs-12 col-l-6 bg-success default-cell-height lc-background-img justify-content-center align-items-center">
             <div>
               Brettakantar
             </div>
           </Col>
-          <Col className="col-xs-12 col-l-6 bg-danger default-cell-height spoiler-background-img">
+          <Col className="d-flex col-xs-12 col-l-6 bg-danger default-cell-height spoiler-background-img justify-content-center align-items-center">
             <div>
               Formgerð
             </div>
