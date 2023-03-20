@@ -33,6 +33,17 @@ export default function Home(initialData) {
             </div>
           </Col>
         </Row>
+        <Row>
+          <Col id="about" className="d-flex col-12 justify-content-center align-items-center">
+            <ul>
+              <li>Heimilisfang</li>
+              <li>Símanúmer</li>
+              <li>Tölvupóstföng</li>
+              <li>Opnunartími</li>
+              <li>Kort</li>
+            </ul>
+          </Col>
+        </Row>
       </Container>
     </SimpleLayout>
   )

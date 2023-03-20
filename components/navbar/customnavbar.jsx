@@ -5,6 +5,9 @@ import { React } from 'react'
 // https://react-bootstrap.netlify.app/components/navbar/#responsive-behaviors for collapsible
 // for instructions for current react-bootstrap version (2.7.2)
 
+//On smaller screens:
+// Move icon to center of Navbar
+
 function CustomNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -18,6 +21,7 @@ function CustomNavbar() {
           <Nav.Link href="/write">Sprautun</Nav.Link>
           <Nav.Link href="/write">Brettakantar</Nav.Link>
           <Nav.Link href="/write">Formgerð</Nav.Link>
+          <Nav.Link href="#about">Um okkur</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
