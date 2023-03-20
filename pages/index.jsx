@@ -34,13 +34,19 @@ export default function Home(initialData) {
           </Col>
         </Row>
         <Row>
-          <Col id="about" className="d-flex col-12 justify-content-center align-items-center">
+          <Col id="about" className="d-flex col-12 justify-content-center align-items-center mt-3">
+            Formverk ehf. Bæjarflöt 6, 112 Reykjavík Sími: 567 7660 / 898 6471 - formverk@formverk.is
+          </Col>
+        </Row>
+        <Row>
+          <Col className="d-flex col-12 justify-content-center align-items-center">
+            <a href="https://ja.is/kort/?d=hashid%3AxdLZX&x=363571&y=407520&type=map&nz=13.70" target="_blank">Staðsetning á korti já.is</a>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="d-flex col-12 justify-content-center align-items-center">
             <ul>
-              <li>Heimilisfang</li>
-              <li>Símanúmer</li>
-              <li>Tölvupóstföng</li>
               <li>Opnunartími</li>
-              <li>Kort</li>
             </ul>
           </Col>
         </Row>
