@@ -40,7 +40,7 @@ export default function Home(initialData) {
                 Formverk ehf. Bæjarflöt 6, 112 Reykjavík
               </Col>
               <Col className="col-12 text-center">
-                Sími: 567 7660 / 898 6471 - formverk@formverk.is
+                Sími: 567 7660 / 898 6471
               </Col>
             </Row>
           </Col>
