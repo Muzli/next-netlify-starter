@@ -27,7 +27,7 @@ export default function Home(initialData) {
               <strong>Brettakantar</strong>
             </div>
           </Col>
-          <Col className="d-flex col-xs-12 col-l-6 bg-secondary   default-cell-height spoiler-background-img justify-content-center align-items-center">
+          <Col className="d-flex col-xs-12 col-l-6 bg-secondary default-cell-height spoiler-background-img justify-content-center align-items-center">
             <div className="display-2 text-white">
               <strong>Formgerð</strong>
             </div>
@@ -35,7 +35,14 @@ export default function Home(initialData) {
         </Row>
         <Row>
           <Col id="about" className="d-flex col-12 justify-content-center align-items-center mt-3">
-            Formverk ehf. Bæjarflöt 6, 112 Reykjavík Sími: 567 7660 / 898 6471 - formverk@formverk.is
+            <Row>
+              <Col className="col-12 text-center">
+                Formverk ehf. Bæjarflöt 6, 112 Reykjavík
+              </Col>
+              <Col className="col-12 text-center">
+                Sími: 567 7660 / 898 6471 - formverk@formverk.is
+              </Col>
+            </Row>
           </Col>
         </Row>
         <Row>
