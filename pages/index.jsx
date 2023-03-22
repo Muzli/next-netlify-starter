@@ -10,26 +10,26 @@ export default function Home(initialData) {
     <SimpleLayout>
     <Container> 
         <Row> 
-          <Col className="d-flex col-12 col-lg-6 bg-secondary default-cell-height garage-background-img justify-content-center align-items-center">
+          <Col className="d-flex col-12 col-lg-6 bg-secondary default-cell-height garage-background-img justify-content-center align-items-center position-relative">
             <div className="display-2 text-white">
-              <strong>Réttingar</strong>
+              <a className="stretched-link" href="/rettingar"><strong>Réttingar</strong></a>
             </div>
           </Col>
-          <Col className="d-flex col-12 col-lg-6 bg-secondary default-cell-height paint-background-img justify-content-center align-items-center">
+          <Col className="d-flex col-12 col-lg-6 bg-secondary default-cell-height paint-background-img justify-content-center align-items-center position-relative">
             <div className="display-2 text-white">
-              <strong>Sprautun</strong>
+              <a className="stretched-link" href="/sprautun"><strong>Sprautun</strong></a>
             </div>
           </Col>
         </Row>
         <Row> 
-          <Col className="d-flex col-12 col-lg-6 bg-secondary default-cell-height lc-background-img justify-content-center align-items-center">
+          <Col className="d-flex col-12 col-lg-6 bg-secondary default-cell-height lc-background-img justify-content-center align-items-center position-relative">
             <div className="display-2 text-white">
-              <strong>Brettakantar</strong>
+              <a className="stretched-link" href="/brettakantar"><strong>Brettakantar</strong></a>
             </div>
           </Col>
-          <Col className="d-flex col-12 col-lg-6 bg-secondary default-cell-height spoiler-background-img justify-content-center align-items-center">
+          <Col className="d-flex col-12 col-lg-6 bg-secondary default-cell-height spoiler-background-img justify-content-center align-items-center position-relative">
             <div className="display-2 text-white">
-              <strong>Formgerð</strong>
+              <a className="stretched-link" href="/formgerd"><strong>Formgerð</strong></a>
             </div>
           </Col>
         </Row>
