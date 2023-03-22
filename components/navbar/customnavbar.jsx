@@ -12,7 +12,12 @@ function CustomNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="/">
-        <Image src="/formverk_logo.png"/>
+        <Image 
+          src="/formverk_logo.png"
+          width="120"
+          height="70"
+          className="d-inline-block align-top"
+          alt="Formverk logo"/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
