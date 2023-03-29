@@ -6,9 +6,8 @@ export default function Rettingar(initialData) {
   return (
     <SimpleLayout>
       <Container>
-        <Row>
-          <Col>1 of 1</Col>
-        </Row>
+        <h1>Réttingar</h1>
+        <p>Einhver texti</p>
       </Container>
     </SimpleLayout>
   )

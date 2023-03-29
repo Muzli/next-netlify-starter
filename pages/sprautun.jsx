@@ -5,9 +5,8 @@ export default function Sprautun() {
   return (
     <SimpleLayout>
       <Container>
-        <Row>
-          <Col>1 of 2</Col>
-        </Row>
+        <h1>Sprautun</h1>
+        <p>Einhver texti</p>
       </Container>
     </SimpleLayout>
   )
