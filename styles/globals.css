@@ -59,3 +59,12 @@ code {
   background-image: url("../public/backgrounds/lc150_38-faded.png");
   background-size: 100%;
 }
+
+.index-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.index-link:hover {
+  color: #bbf;
+}
