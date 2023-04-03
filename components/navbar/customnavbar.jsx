@@ -22,10 +22,8 @@ function CustomNavbar() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="/rettingar">Réttingar</Nav.Link>
-          <Nav.Link href="/sprautun">Sprautun</Nav.Link>
           <Nav.Link href="/brettakantar">Brettakantar</Nav.Link>
-          <Nav.Link href="/formgerd">Formgerð</Nav.Link>
+          <Nav.Link href="/tjonaskodum">Tjónaskoðun</Nav.Link>
           <Nav.Link href="#about">Um okkur</Nav.Link>
         </Nav>
       </Navbar.Collapse>
