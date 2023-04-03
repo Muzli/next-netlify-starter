@@ -40,9 +40,7 @@ export default function Home(initialData) {
         </Row>
         <Row>
           <Col className="d-flex col-12 justify-content-center align-items-center">
-            <ul>
-              <li>Opnunartími</li>
-            </ul>
+            <p>Opnunartími</p>
           </Col>
         </Row>
       </Container>
