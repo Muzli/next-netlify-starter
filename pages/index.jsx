@@ -26,15 +26,23 @@ export default function Home(initialData) {
         </Col>
       </Row>
       <Row>
-        <Col className="col-12">
-          <ul>
-            <li>Aðili 1</li>
-            <li>Aðili 2</li> 
-            <li>Aðili 3</li>
-            <li>Aðili 4</li>
-            <li>Aðili 5</li>
-            <li>Aðili 6</li> 
-          </ul>
+        <Col className="col-6 col-lg-3">
+          Aðili 1
+        </Col>
+        <Col className="col-6 col-lg-3">
+          Aðili 2
+        </Col>
+        <Col className="col-6 col-lg-3">
+          Aðili 3
+        </Col>
+        <Col className="col-6 col-lg-3">
+          Aðili 4
+        </Col>
+        <Col className="col-6 col-lg-3">
+          Aðili 5
+        </Col>
+        <Col className="col-6 col-lg-3">
+          Aðili 6
         </Col>
       </Row>
     </SimpleLayout>
