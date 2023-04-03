@@ -19,6 +19,23 @@ export default function Home(initialData) {
             <a className="stretched-link index-link" href="/tjonaskodun"><strong>Tjónaskoðun</strong></a>
           </div>
         </Col>          
+      </Row>
+      <Row>
+        <Col id='coop-index-header' className="d-flex col-12 mt-3 text-lg-center justify-content-center justify-content-lg-start">
+          <h1>Samstarfsaðilar</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col className="col-12">
+          <ul>
+            <li>Aðili 1</li>
+            <li>Aðili 2</li> 
+            <li>Aðili 3</li>
+            <li>Aðili 4</li>
+            <li>Aðili 5</li>
+            <li>Aðili 6</li> 
+          </ul>
+        </Col>
       </Row>        
       <Row>
         <Col id="about" className="d-flex col-12 justify-content-center align-items-center mt-3">
