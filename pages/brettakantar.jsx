@@ -5,8 +5,10 @@ export default function Brettakantar() {
   return (
     <SimpleLayout>
       <Container>
-        <h1>Brettakantar</h1>
-        <p>Einhver texti</p>
+        <h1>Vörulisti</h1>
+        <p>Einhver texti/listi/hlekkir</p>
+        <h1>Mótagerð</h1>
+        <p>Einhver texti/listi/hlekkir</p>
       </Container>
     </SimpleLayout>
   )
