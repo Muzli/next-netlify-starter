@@ -1,4 +1,5 @@
 import SimpleLayout from '../components/layout/simple'
+import IndexCard from '../components/layout/indexcard'
 import { Row, Col } from 'react-bootstrap';
 
 // Make new versions of background images
@@ -9,16 +10,8 @@ export default function Home(initialData) {
   return (    
     <SimpleLayout>    
       <Row>
-        <Col className="d-flex col-12 col-lg-6 bg-secondary default-cell-height lc-background-img justify-content-center align-items-center position-relative">
-          <div className="display-2 text-white">
-            <a className="stretched-link index-link" href="/brettakantar"><strong>Brettakantar</strong></a>
-          </div>
-        </Col>
-        <Col className="d-flex col-12 col-lg-6 bg-secondary default-cell-height garage-background-img justify-content-center align-items-center position-relative">
-          <div className="display-2 text-white">
-            <a className="stretched-link index-link" href="/tjonaskodun"><strong>Tjónaskoðun</strong></a>
-          </div>
-        </Col>          
+        <IndexCard backgroundClass='lc-background-img' url='/brettakantar' title='Brettakantar' />
+        <IndexCard backgroundClass='garage-background-img' url='/tjonaskodun' title='Tjónaskoðun' />        
       </Row>
       <Row>
         <Col id='coop-index-header' className="d-flex col-12 mt-3 text-lg-center justify-content-center justify-content-lg-start">
