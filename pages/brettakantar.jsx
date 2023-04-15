@@ -8,7 +8,7 @@ export default function Brettakantar() {
         <h1>Vörulisti</h1>
         <p>Einhver texti/listi/hlekkir</p>
         <h1>Mótagerð</h1>
-        <p>Einhver texti/listi/hlekkir</p>
+        <p>Frumstykkjasmíð og mótagerð er í höndum Formverks.</p>
       </Container>
     </SimpleLayout>
   )

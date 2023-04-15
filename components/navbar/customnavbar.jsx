@@ -19,11 +19,11 @@ function CustomNavbar() {
           className="d-inline-block align-top"
           alt="Formverk logo"/>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="/brettakantar">Brettakantar</Nav.Link>
-          <Nav.Link href="/tjonaskodum">Tjónaskoðun</Nav.Link>
+          <Nav.Link href="/tjonaskodun">Tjónaskoðun</Nav.Link>
           <Nav.Link href="#about">Um okkur</Nav.Link>
         </Nav>
       </Navbar.Collapse>

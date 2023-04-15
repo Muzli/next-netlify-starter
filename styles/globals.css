@@ -56,7 +56,7 @@ code {
 }
 
 .lc-background-img {
-  background-image: url("../public/backgrounds/lc150_38-faded.png");
+  background-image: url("../public/backgrounds/cruiser.jpg");
   background-size: 100%;
 }
 
@@ -67,4 +67,11 @@ code {
 
 .index-link:hover {
   color: rgb(225, 225, 253);
+}
+
+.stroke-text {
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
 }
