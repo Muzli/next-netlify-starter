@@ -1,15 +1,19 @@
 import SimpleLayout from '../components/layout/simple'
 import { Container, Row, Col } from 'react-bootstrap';
 
-// Vera með 2 dropdown lista vinstra megin
-// Annar fyrir bílgerð
-// Hinn fyrir dekkjastærð
+// Vera með grid fyrir bílaframleiðendur
+// 5 cols 3 rows á desktop
+// 3 cols 5 rows á mobile
 
-// Vera með 2 lista af anchor links undir Brettakantar
-// Annar fyrir bílgerð
-// Hinn fyrir dekkjastærð
-// Þegar smellt er á atriði í öðrum hvorum listanum 
-// þá filterast hinn listinn eftir þeim vörum sem eru í boði
+// Hver reitur er takki sem loadar vörulistasíðu
+// með vörum frá viðkomandi framleiðanda
+
+// Vörulistasíðan er með filter fyrir
+// ->Tegund
+// ->Árgerð
+// ->Dekkjastærð
+// ->Felgubreidd
+// Og cards fyrir vörur
 
 export default function Brettakantar() {
   return (
