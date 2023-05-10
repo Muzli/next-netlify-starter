@@ -1,13 +1,13 @@
 import { Col } from 'react-bootstrap';
 import { React } from 'react'
 
-export default function MakerIndexCard({backgroundClass, url, title}) {
-  let classname = backgroundClass + ' d-flex col-4 col-lg-2 bg-secondary justify-content-center align-items-center position-relative';
+export default function MakerIndexCard({url, title}) {
+  let classname = 'd-flex col-4 col-lg-2 justify-content-center align-items-center position-relative mb-3';
   return (
     <Col className={classname}>
-          <div className="text-white">
-            <a className="stretched-link index-link" href={url}><strong>{title}</strong></a>
-          </div>
+        <div>
+          <a className="stretched-link index-link" href={url}><strong>{title}</strong></a>
+        </div>
     </Col>
   )
 }

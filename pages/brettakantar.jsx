@@ -21,30 +21,33 @@ export default function Brettakantar() {
     <SimpleLayout>
       <Container>
         <Row>
-          <Col className="col-12 text-lg-center">
+          <Col className="col-12 text-center mb-2">
             <h1>Framleiðendur</h1>
           </Col>
         </Row>
         <Row>
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=dodge_ram' title='Dodge' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=chevrolet_gmc' title='Chevrolet' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=jeep' title='Jeep' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=ford' title='Ford' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=musso' title='Musso' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=isuzu' title='Isuzu' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=land_rover' title='Land Rover' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=iveco' title='Iveco' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=toyota' title='Toyota' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=nissan' title='Nissan' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=mitsubishi' title='Mitsubishi' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=benz' title='Mercedes Benz' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=suzuki' title='Suzuki' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=volkswagen' title='Volkswagen' />
-          <MakerIndexCard backgroundClass='lc-background-img' url='/catalog?maker=scaut' title='Scaut' />
+          <MakerIndexCard url='/catalog?maker=dodge_ram' title='Dodge' />
+          <MakerIndexCard url='/catalog?maker=chevrolet_gmc' title='Chevrolet' />
+          <MakerIndexCard url='/catalog?maker=jeep' title='Jeep' />
+          <MakerIndexCard url='/catalog?maker=ford' title='Ford' />
+          <MakerIndexCard url='/catalog?maker=musso' title='Musso' />
+          <MakerIndexCard url='/catalog?maker=isuzu' title='Isuzu' />
+          <MakerIndexCard url='/catalog?maker=land_rover' title='Land Rover' />
+          <MakerIndexCard url='/catalog?maker=iveco' title='Iveco' />
+          <MakerIndexCard url='/catalog?maker=toyota' title='Toyota' />
+          <MakerIndexCard url='/catalog?maker=nissan' title='Nissan' />
+          <MakerIndexCard url='/catalog?maker=mitsubishi' title='Mitsubishi' />
+          <MakerIndexCard url='/catalog?maker=benz' title='Mercedes Benz' />
+          <MakerIndexCard url='/catalog?maker=suzuki' title='Suzuki' />
+          <MakerIndexCard url='/catalog?maker=volkswagen' title='Volkswagen' />
+          <MakerIndexCard url='/catalog?maker=scaut' title='Scaut' />
         </Row>
-        <p>Einhver texti/listi/hlekkir</p>
-        <h1>Mótagerð</h1>
-        <p>Frumstykkjasmíð og mótagerð er í höndum Formverks.</p>
+        <Row className="mt-5">
+          <Col className="col-12 text-center">
+            <h1>Mótagerð</h1>
+            <p>Frumstykkjasmíð og mótagerð er í höndum Formverks.</p>
+          </Col>
+        </Row>
       </Container>
     </SimpleLayout>
   )
