@@ -1,6 +1,6 @@
 import CustomNavbar from '../navbar/customnavbar'
 import Footer from '../footer/footer'
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { React } from 'react'
 
 export default function SimpleLayout(props) {
@@ -8,11 +8,15 @@ export default function SimpleLayout(props) {
     <>
       <CustomNavbar />
       <main>
-        <Container>
-          {props.children}          
-        </Container>           
-      </main>
-      <Footer/>     
+        <Row>
+          <Container>
+            {props.children}          
+          </Container> 
+        </Row>
+        <Row>
+          <Footer/>
+        </Row>         
+      </main>          
     </>
   )
 }
