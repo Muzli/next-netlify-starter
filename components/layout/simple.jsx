@@ -9,10 +9,10 @@ export default function SimpleLayout(props) {
       <CustomNavbar />
       <main>
         <Container>
-          {props.children}
-          <Footer />
-        </Container>        
-      </main>      
+          {props.children}          
+        </Container>           
+      </main>
+      <Footer/>     
     </>
   )
 }
