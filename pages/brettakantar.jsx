@@ -26,21 +26,21 @@ export default function Brettakantar() {
           </Col>
         </Row>
         <Row>
-          <MakerIndexCard url='/catalog?maker=dodge_ram' title='Dodge' />
-          <MakerIndexCard url='/catalog?maker=chevrolet_gmc' title='Chevrolet' />
-          <MakerIndexCard url='/catalog?maker=jeep' title='Jeep' />
-          <MakerIndexCard url='/catalog?maker=ford' title='Ford' />
-          <MakerIndexCard url='/catalog?maker=musso' title='Musso' />
-          <MakerIndexCard url='/catalog?maker=isuzu' title='Isuzu' />
-          <MakerIndexCard url='/catalog?maker=land_rover' title='Land Rover' />
-          <MakerIndexCard url='/catalog?maker=iveco' title='Iveco' />
-          <MakerIndexCard url='/catalog?maker=toyota' title='Toyota' />
-          <MakerIndexCard url='/catalog?maker=nissan' title='Nissan' />
-          <MakerIndexCard url='/catalog?maker=mitsubishi' title='Mitsubishi' />
-          <MakerIndexCard url='/catalog?maker=benz' title='Mercedes Benz' />
-          <MakerIndexCard url='/catalog?maker=suzuki' title='Suzuki' />
-          <MakerIndexCard url='/catalog?maker=volkswagen' title='Volkswagen' />
-          <MakerIndexCard url='/catalog?maker=scaut' title='Scaut' />
+          <MakerIndexCard url='/catalog_dodge' title='Dodge' />
+          <MakerIndexCard url='/catalog_chevrolet' title='Chevrolet' />
+          <MakerIndexCard url='/catalog_jeep' title='Jeep' />
+          <MakerIndexCard url='/catalog_ford' title='Ford' />
+          <MakerIndexCard url='/catalog_musso' title='Musso' />
+          <MakerIndexCard url='/catalog_isuzu' title='Isuzu' />
+          <MakerIndexCard url='/catalog_landrover' title='Land Rover' />
+          <MakerIndexCard url='/catalog_iveco' title='Iveco' />
+          <MakerIndexCard url='/catalog_toyota' title='Toyota' />
+          <MakerIndexCard url='/catalog_nissan' title='Nissan' />
+          <MakerIndexCard url='/catalog_mitsubishi' title='Mitsubishi' />
+          <MakerIndexCard url='/catalog_benz' title='Mercedes Benz' />
+          <MakerIndexCard url='/catalog_suzuki' title='Suzuki' />
+          <MakerIndexCard url='/catalog_volkswagen' title='Volkswagen' />
+          <MakerIndexCard url='/catalog_scaut' title='Scaut' />
         </Row>
         <Row className="mt-5">
           <Col className="col-12 text-center">
