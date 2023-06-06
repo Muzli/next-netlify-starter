@@ -3,7 +3,7 @@ import { React } from 'react'
 
 function Footer() {
   return (
-    <Container>
+    <Container style={{height: '10vh'}}>
       <Row>
         <Col id="about" className="d-flex col-12 justify-content-center align-items-center mt-3">
           <Row>
