@@ -39,7 +39,6 @@ function CustomNavbar() {
             <NavDropdown.Item href='/catalog_volkswagen'>Volkswagen</NavDropdown.Item>
             <NavDropdown.Item href='/catalog_scaut'>Scaut</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="/brettakantar">Brettakantar</Nav.Link>
           <Nav.Link href="/tjonaskodun">Tjónaskoðun</Nav.Link>
           <Nav.Link href="#about">Um okkur</Nav.Link>
         </Nav>
