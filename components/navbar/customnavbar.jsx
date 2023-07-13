@@ -11,7 +11,7 @@ import { React } from 'react'
 function CustomNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/" className="m-auto">
         <Image 
           src="/formverk_logo.png"
           width="120"
