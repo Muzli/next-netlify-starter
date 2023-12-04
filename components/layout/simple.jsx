@@ -7,7 +7,7 @@ export default function SimpleLayout(props) {
   return (
     <>
       <CustomNavbar />
-      <main>
+      <main class="min-vh-100">
         <Row>
           <Container>
             {props.children}          
