@@ -83,3 +83,20 @@ code {
 				 1px -1px 0 #000,
 				-1px -1px 0 #000;
 }
+
+.carousel-item {
+  /*width: 40%;
+  max-height: 20em;
+  margin-left: 30%;
+  border: dashed blue 2px;
+  object-fit:scale-down;*/
+}
+
+.carouselImage {
+  /*max-width: 100%;*/
+  max-height: 350px;
+  height: 10%;
+  width: auto;
+  border: dashed blue 2px;
+  /*object-fit:scale-down;*/
+}
