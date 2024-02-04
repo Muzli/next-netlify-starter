@@ -100,3 +100,19 @@ code {
   border: dashed blue 2px;
   /*object-fit:scale-down;*/
 }
+
+.carousel-item:not(.active) {
+  display:block;
+  border: dashed red 3px;
+  z-index: 1;
+}
+
+.carousel-item.active {
+  z-index: 2;
+}
+
+.carousel-item:not(.active) > .carouselImage {
+  margin-right: 0%;
+  margin-left: 10%;
+  opacity: 0.3;
+}
