@@ -8,7 +8,7 @@ export default function SimpleLayout(props) {
   return (
     <>
       <CustomNavbar />
-      <main class="min-vh-100">
+      <main className="min-vh-100">
         <Row>
           <HeroCarousel>
             
