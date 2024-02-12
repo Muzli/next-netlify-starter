@@ -1,6 +1,6 @@
 function CarouselImage({src}) {
     return (
-        <img class='carouselImage' src={src}/>
+        <img className='carouselImage' src={src}/>
     );
 }
 

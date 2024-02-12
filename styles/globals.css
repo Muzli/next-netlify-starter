@@ -84,11 +84,4 @@ code {
 				-1px -1px 0 #000;
 }
 
-.carouselImage {
-  /*max-width: 100%;*/
-  max-height: 350px;
-  height: 10%;
-  width: auto;
-  border: dashed blue 2px;
-  /*object-fit:scale-down;*/
-}
+
