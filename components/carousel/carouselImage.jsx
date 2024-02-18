@@ -1,6 +1,6 @@
 function CarouselImage({src}) {
     return (
-        <img className='carouselImage' src={src}/>
+        <img src={src} fluid="true"/>
     );
 }
 

@@ -40,6 +40,7 @@ function CustomNavbar() {
             <NavDropdown.Item href='/catalog_scaut'>Scaut</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/tjonaskodun">Tjónaskoðun</Nav.Link>
+          <Nav.Link href="/myndasafn">Myndasafn</Nav.Link>
           <Nav.Link href="#about">Um okkur</Nav.Link>
         </Nav>
       </Navbar.Collapse>
