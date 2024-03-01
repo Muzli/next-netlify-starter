@@ -21,10 +21,11 @@ import { Row, Col, SSRProvider } from 'react-bootstrap';
 export default function Home(initialData) {
   return (   
     <SSRProvider> 
-      <SimpleLayout>    
+      <SimpleLayout>
         <Row>
-          <IndexCard backgroundClass='lc-background-img' url='/brettakantar' title='Brettakantar' />
-          <IndexCard backgroundClass='garage-background-img' url='/tjonaskodun' title='Tjónaskoðun' />        
+          <IndexCard backgroundClass='indexcard lc-background-img' url='/brettakantar' title='Brettakantar' />
+          <span className="col-lg-1"/>
+          <IndexCard backgroundClass='indexcard garage-background-img' url='/tjonaskodun' title='Tjónaskoðun' />        
         </Row>
         <Row>
           <Col id='coop-index-header' className="d-flex col-12 mt-3 text-lg-center justify-content-center justify-content-lg-start">

@@ -84,4 +84,7 @@ code {
 				-1px -1px 0 #000;
 }
 
-
+.indexcard {
+  border-radius: 7px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
