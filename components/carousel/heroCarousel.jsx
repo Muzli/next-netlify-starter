@@ -3,7 +3,7 @@ import CarouselImage from './carouselImage';
 
 function HeroCarousel() {
     return (
-        <Carousel slide={false}>
+        <Carousel slide={false} className="carousel">
             <Carousel.Item>
                 <CarouselImage src='backgrounds/expo/Akur 1 - carousel.jpg'/>                
             </Carousel.Item>
