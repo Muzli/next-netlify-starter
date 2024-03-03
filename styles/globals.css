@@ -93,3 +93,7 @@ code {
   max-height: 240px;
   border-radius: 70px;
 }
+
+.navbarShadow {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
