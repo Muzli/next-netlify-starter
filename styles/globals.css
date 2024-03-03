@@ -90,5 +90,6 @@ code {
 }
 
 .carousel-image {
-  max-height: 240px
+  max-height: 240px;
+  border-radius: 70px;
 }
