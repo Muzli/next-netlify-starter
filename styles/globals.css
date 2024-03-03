@@ -58,6 +58,13 @@ code {
   background-size: 100%;
 }
 
+.expo-background-img {
+  background-image: 
+    linear-gradient(to bottom, rgba(96, 96, 96, 0.2), rgba(96, 96, 96, 0.4)),
+    url("../public/backgrounds/expo/expo-indexcard.png");
+  background-size: 100%;
+}
+
 .spoiler-background-img {
   background-image: url("../public/backgrounds/carbon-fiber-spoiler-faded.png");
   background-size: 100%;
