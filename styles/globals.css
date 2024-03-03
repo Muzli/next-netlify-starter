@@ -97,3 +97,7 @@ code {
 .navbarShadow {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
+
+.margin-top { 
+  margin-top: 1em;
+}
