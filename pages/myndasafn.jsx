@@ -9,6 +9,7 @@ export default function Myndasafn() {
         <SimpleLayout>
           <Container>
             <h1>Myndasafn</h1>
+            <p>Myndir frá 40 ára afmælissýningu Ferðaklúbbsins 4x4 í Fífunni 15.-17. september 2023</p>
             <ImageGallery/>
           </Container>
         </SimpleLayout>
