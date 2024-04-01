@@ -8,12 +8,12 @@ export default function SimpleLayout(props) {
     <>
       <CustomNavbar />
       <main className="min-vh-100">
-        <Row>
+        <Row className="gx-0 gx-sm-4">
           <Container>
             {props.children}          
           </Container> 
         </Row>
-        <Row>
+        <Row className="gx-0 gx-sm-4">
           <Footer/>
         </Row>         
       </main>          

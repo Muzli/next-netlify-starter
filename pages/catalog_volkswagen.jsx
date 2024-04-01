@@ -17,33 +17,33 @@ export default function CatalogVolkswagen() {
       <>
         <CustomNavbar />
         <main>        
-          <Row className="align-items-start">
+          <Row className="align-items-start me-0">
             <Col className="col-12 text-center mb-2">
               <h1>Volkswagen</h1>
-              <Table>
+              <Table className="catalog-table">
                 <thead>
                   <tr>
-                    <th>Tegund</th>
-                    <th>Árgerð</th>
-                    <th>Dekkjastærð</th>
-                    <th>Felgubreidd</th>
-                    <th>Verð</th>
+                    <th className="p-1 p-md-3">Tegund</th>
+                    <th className="p-1 p-md-3">Árgerð</th>
+                    <th className="p-1 p-md-3">Dekkjastærð</th>
+                    <th className="p-1 p-md-3">Felgubreidd</th>
+                    <th className="p-1 p-md-3">Verð</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                      <td>Amarok</td>
-                      <td>2016-</td>
-                      <td>35"</td>
-                      <td></td>
-                      <td>252.000 kr.</td>
+                      <td className="p-1 p-md-3">Amarok</td>
+                      <td className="p-1 p-md-3">2016-</td>
+                      <td className="p-1 p-md-3">35"</td>
+                      <td className="p-1 p-md-3"></td>
+                      <td className="p-1 p-md-3">252.000 kr.</td>
                   </tr>                
                 </tbody>
               </Table>
             </Col>
           </Row>        
         </main>            
-        <Row>
+        <Row className="gx-0 gx-sm-4">
           <Footer/>
         </Row>
       </>

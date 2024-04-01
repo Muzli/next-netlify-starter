@@ -113,3 +113,30 @@ code {
 .margin-top { 
   margin-top: 1em;
 }
+
+
+@media (max-width: 600px) {
+  .catalog-table {
+    font-size: small;
+  }
+
+  .margin-top {
+    margin-top: 0em;
+  }
+
+  .indexcard {
+    margin-top: 1em;
+  }
+} 
+
+
+@media (max-width: 768px) {
+
+  .margin-top {
+    margin-top: 0em;
+  }
+
+  .indexcard {
+    margin-top: 1em;
+  }
+}

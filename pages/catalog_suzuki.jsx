@@ -19,47 +19,47 @@ export default function CatalogSuzuki() {
         <CustomNavbar />
         <main>    
           <BrandCarousel brand="Suzuki" number_of_images="1"/>    
-          <Row className="align-items-start">
+          <Row className="align-items-start me-0">
             <Col className="col-12 text-center mb-2">
               <h1>Suzuki</h1>
-              <Table>
+              <Table className="catalog-table">
                 <thead>
                   <tr>
-                    <th>Tegund</th>
-                    <th>Árgerð</th>
-                    <th>Dekkjastærð</th>
-                    <th>Felgubreidd</th>
-                    <th>Verð</th>
+                    <th className="p-1 p-md-3">Tegund</th>
+                    <th className="p-1 p-md-3">Árgerð</th>
+                    <th className="p-1 p-md-3">Dekkjastærð</th>
+                    <th className="p-1 p-md-3">Felgubreidd</th>
+                    <th className="p-1 p-md-3">Verð</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                      <td>Jimny</td>
-                      <td>2000-2012</td>
-                      <td>35"</td>
-                      <td></td>
-                      <td>210.000 kr.</td>
+                      <td className="p-1 p-md-3">Jimny</td>
+                      <td className="p-1 p-md-3">2000-2012</td>
+                      <td className="p-1 p-md-3">35"</td>
+                      <td className="p-1 p-md-3"></td>
+                      <td className="p-1 p-md-3">210.000 kr.</td>
                   </tr>
                   <tr>
-                      <td>Jimny</td>
-                      <td>2012-2017</td>
-                      <td>35"</td>
-                      <td></td>
-                      <td>210.000 kr.</td>
+                      <td className="p-1 p-md-3">Jimny</td>
+                      <td className="p-1 p-md-3">2012-2017</td>
+                      <td className="p-1 p-md-3">35"</td>
+                      <td className="p-1 p-md-3"></td>
+                      <td className="p-1 p-md-3">210.000 kr.</td>
                   </tr>
                   <tr>
-                      <td>Jimny</td>
-                      <td>2018-</td>
-                      <td>33"-35"</td>
-                      <td></td>
-                      <td>252.000 kr.</td>
+                      <td className="p-1 p-md-3">Jimny</td>
+                      <td className="p-1 p-md-3">2018-</td>
+                      <td className="p-1 p-md-3">33"-35"</td>
+                      <td className="p-1 p-md-3"></td>
+                      <td className="p-1 p-md-3">252.000 kr.</td>
                   </tr>                
                 </tbody>
               </Table>
             </Col>
           </Row>        
         </main>            
-        <Row>
+        <Row className="gx-0 gx-sm-4">
           <Footer/>
         </Row>
       </>

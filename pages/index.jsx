@@ -28,7 +28,7 @@ export default function Home(initialData) {
           <span className="col-lg-1"/>
           <IndexCard backgroundClass='indexcard garage-background-img' url='/tjonaskodun' title='Tjónaskoðun' />        
         </Row>
-        <Row  className="margin-top">
+        <Row className="margin-top">
           <IndexCardDouble backgroundClass='indexcard expo-background-img' url='/myndasafn' title='Myndasafn' />
         </Row>
         <Row>
