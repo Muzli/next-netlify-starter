@@ -1,6 +1,7 @@
 import SimpleLayout from '../components/layout/simple'
 import IndexCard from '../components/layout/indexcard'
 import IndexCardDouble from '../components/layout/indexcarddouble';
+import LanguageProvider from '../utilities/Language/languageProvider';
 import { Row, Col, SSRProvider } from 'react-bootstrap';
 
 // Make new versions of background images
@@ -21,42 +22,44 @@ import { Row, Col, SSRProvider } from 'react-bootstrap';
 
 export default function Home(initialData) {
   return (   
-    <SSRProvider> 
-      <SimpleLayout>
-        <Row>
-          <IndexCard backgroundClass='indexcard lc-background-img' url='/brettakantar' title='Brettakantar' />
-          <span className="col-lg-1"/>
-          <IndexCard backgroundClass='indexcard garage-background-img' url='/tjonaskodun' title='Tjónaskoðun' />        
-        </Row>
-        <Row className="margin-top">
-          <IndexCardDouble backgroundClass='indexcard expo-background-img' url='/myndasafn' title='Myndasafn' />
-        </Row>
-        <Row>
-          <Col id='coop-index-header' className="d-flex col-12 mt-3 text-lg-center justify-content-center justify-content-lg-start">
-            <h1>Samstarfsaðilar</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="col-6 col-lg-3">
-            Aðili 1
-          </Col>
-          <Col className="col-6 col-lg-3">
-            Aðili 2
-          </Col>
-          <Col className="col-6 col-lg-3">
-            Aðili 3
-          </Col>
-          <Col className="col-6 col-lg-3">
-            Aðili 4
-          </Col>
-          <Col className="col-6 col-lg-3">
-            Aðili 5
-          </Col>
-          <Col className="col-6 col-lg-3">
-            Aðili 6
-          </Col>
-        </Row>
-      </SimpleLayout>
+    <SSRProvider>
+      <LanguageProvider> 
+        <SimpleLayout>
+          <Row>
+            <IndexCard backgroundClass='indexcard lc-background-img' url='/brettakantar' title='Brettakantar' />
+            <span className="col-lg-1"/>
+            <IndexCard backgroundClass='indexcard garage-background-img' url='/tjonaskodun' title='Tjónaskoðun' />        
+          </Row>
+          <Row className="margin-top">
+            <IndexCardDouble backgroundClass='indexcard expo-background-img' url='/myndasafn' title='Myndasafn' />
+          </Row>
+          <Row>
+            <Col id='coop-index-header' className="d-flex col-12 mt-3 text-lg-center justify-content-center justify-content-lg-start">
+              <h1>Samstarfsaðilar</h1>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="col-6 col-lg-3">
+              Aðili 1
+            </Col>
+            <Col className="col-6 col-lg-3">
+              Aðili 2
+            </Col>
+            <Col className="col-6 col-lg-3">
+              Aðili 3
+            </Col>
+            <Col className="col-6 col-lg-3">
+              Aðili 4
+            </Col>
+            <Col className="col-6 col-lg-3">
+              Aðili 5
+            </Col>
+            <Col className="col-6 col-lg-3">
+              Aðili 6
+            </Col>
+          </Row>
+        </SimpleLayout>
+      </LanguageProvider>
     </SSRProvider>
   )
 }

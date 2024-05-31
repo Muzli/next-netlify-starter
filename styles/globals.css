@@ -114,6 +114,11 @@ code {
   margin-top: 1em;
 }
 
+.flag {
+  margin-right: 4em;
+  height: 3em;
+}
+
 
 @media (max-width: 600px) {
   .catalog-table {
