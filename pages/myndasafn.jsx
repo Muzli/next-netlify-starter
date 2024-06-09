@@ -1,18 +1,22 @@
+import { useContext } from 'react';
 import SimpleLayout from '../components/layout/simple';
 import ImageGallery from '../components/imagegallery/imageGallery';
-import { Container, Row, Col, SSRProvider } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+import LanguageContext from 'utilities/Language/languageContext.js';
+import Dictionary from '../utilities/Language/dictionary.js';
 
 
 export default function Myndasafn() {
-    return (
-      <SSRProvider>
-        <SimpleLayout>
-          <Container>
-            <h1>Myndasafn</h1>
-            <p>Myndir frá 40 ára afmælissýningu Ferðaklúbbsins 4x4 í Fífunni 15.-17. september 2023</p>
-            <ImageGallery/>
-          </Container>
-        </SimpleLayout>
-      </SSRProvider>
-    );
+
+  const { language } = useContext(LanguageContext);
+
+  return (
+    <SimpleLayout>
+      <Container>
+        <h1>{Dictionary()[language]["gallery"]["gallery"]}</h1>
+        <p>{Dictionary()[language]["gallery"]["gallery_text"]}</p>
+        <ImageGallery/>
+      </Container>
+    </SimpleLayout>
+  );
 }

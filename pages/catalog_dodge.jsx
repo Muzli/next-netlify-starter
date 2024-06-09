@@ -1,6 +1,9 @@
+import { useContext } from 'react';
 import CustomNavbar from 'components/navbar/customnavbar'
 import Footer from 'components/footer/footer'
-import { Row, Col, SSRProvider } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
+import LanguageContext from '../utilities/Language/languageContext.js';
+import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
 
 // Vörulistasíðan er með filter fyrir
@@ -10,11 +13,12 @@ import Table from 'react-bootstrap/Table';
 // ->Felgubreidd
 // Og cards fyrir vörur
 
-export default function Catalog() {
+export default function CatalogDodge() {
+
+  const { language } = useContext(LanguageContext);
   
   return (
-    <SSRProvider>
-      <>
+    <>
       <CustomNavbar />
         <main>        
           <Row className="align-items-start me-0">
@@ -23,11 +27,11 @@ export default function Catalog() {
               <Table className="catalog-table">
                 <thead>
                   <tr>
-                    <th className="p-1 p-md-3">Tegund</th>
-                    <th className="p-1 p-md-3">Árgerð</th>
-                    <th className="p-1 p-md-3">Dekkjastærð</th>
-                    <th className="p-1 p-md-3">Felgubreidd</th>
-                    <th className="p-1 p-md-3">Verð</th>
+                    <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
+                    <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
+                    <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>
+                    <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["rim_width"]}</th>
+                    <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["price"]}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -75,6 +79,5 @@ export default function Catalog() {
           <Footer/>
         </Row>
       </>
-    </SSRProvider>
   )
 }
