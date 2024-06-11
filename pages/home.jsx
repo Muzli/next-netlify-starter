@@ -14,7 +14,7 @@ export default function Home() {
         <SimpleLayout>
             <Row>
                 <IndexCard backgroundClass='indexcard lc-background-img' url='/brettakantar' title={Dictionary()[language]['navbar']['catalog']} />
-                    <span className="col-lg-1"/>
+                <span className="col-lg-1"/>
                 <IndexCard backgroundClass='indexcard garage-background-img' url='/tjonaskodun' title={Dictionary()[language]["navbar"]["inspection"]} />        
             </Row>
             <Row className="margin-top">

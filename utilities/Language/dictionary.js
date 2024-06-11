@@ -55,7 +55,7 @@ export default function Dictionary() {
         },
         "gallery": {
           "gallery": "Myndasafn",
-          "gallery_text": "Myndir frá 40 ára afmælissýningu Ferðaklúbbsins 4x4 í Fífunni 15.-17. september 2023"
+          "gallery_text": "Myndir frá 40 ára afmælissýningu Ferðaklúbbsins 4x4 í Fífunni 15.-17. september 2023."
         }
       },
       "en": {
@@ -65,11 +65,11 @@ export default function Dictionary() {
         },
         "navbar": {
           "about": "About us",
-          "catalog": "Fender flares",
+          "catalog": "Fender Flares",
           "flag": "en",
           "gallery": "Gallery",
           "home": "Home",          
-          "inspection": "Inspection", 
+          "inspection": "Damage Inspection", 
           "language": "Language",          
         },
         "home": {
