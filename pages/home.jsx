@@ -21,28 +21,8 @@ export default function Home() {
                 <IndexCardDouble backgroundClass='indexcard expo-background-img' url='/myndasafn' title={Dictionary()[language]["navbar"]["gallery"]} />
             </Row>
             <Row>
-                <Col id='coop-index-header' className="d-flex col-12 mt-3 text-lg-center justify-content-center justify-content-lg-start">
-                    <h1>{Dictionary()[language]["home"]["co_operators"]}</h1>
-                </Col>
-            </Row>
-            <Row>
-                <Col className="col-6 col-lg-3">
-                    Aðili 1
-                </Col>
-                <Col className="col-6 col-lg-3">
-                    Aðili 2
-                </Col>
-                <Col className="col-6 col-lg-3">
-                    Aðili 3
-                </Col>
-                <Col className="col-6 col-lg-3">
-                    Aðili 4
-                </Col>
-                <Col className="col-6 col-lg-3">
-                    Aðili 5
-                </Col>
-                <Col className="col-6 col-lg-3">
-                    Aðili 6
+                <Col id='coop-index-header' className="d-flex col-12 mt-3 text-lg-center justify-content-center">
+                    <h4>{Dictionary()[language]["home"]["co_operators"]}</h4>
                 </Col>
             </Row>
         </SimpleLayout>

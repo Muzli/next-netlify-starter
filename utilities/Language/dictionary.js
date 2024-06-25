@@ -16,7 +16,7 @@ export default function Dictionary() {
           "language": "Tungumál"          
         },
         "home": {
-          "co_operators": "Samstarfsaðilar"
+          "co_operators": "Við höfum samninga við öll tryggingafélög."
         }, 
         "footer": {
           "location": "Staðsetning á korti já.is",
@@ -73,7 +73,7 @@ export default function Dictionary() {
           "language": "Language",          
         },
         "home": {
-          "co_operators": "Certified partners"
+          "co_operators": "We have contracts with all Icealndic insurance agencies."
         },
         "footer": {
           "location": "Location on map",
