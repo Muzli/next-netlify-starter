@@ -20,7 +20,7 @@ export default function Dictionary() {
         }, 
         "footer": {
           "location": "Staðsetning á korti já.is",
-          "opening_hours": "Opnunartími",
+          "opening_hours": "Opnunartími móttöku: Mánudaga til fimmtudaga kl. 7:30-16:00, föstudaga kl. 7:30-14:00",
           "phone": "Sími"          
         },
         "catalog" : { 
@@ -77,7 +77,7 @@ export default function Dictionary() {
         },
         "footer": {
           "location": "Location on map",
-          "opening_hours": "Opening hours",
+          "opening_hours": "Opening hours: Monday to Thursday 7:30-16:00, Friday 7:30-14:00",
           "phone": "Phone"          
         },
         "catalog" : { 
