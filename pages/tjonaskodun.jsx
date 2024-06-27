@@ -14,7 +14,7 @@ export default function Tjonaskodun() {
         <Col className='px-5'>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '60vh' }}>
               <h1 className="display-2 py-3">{Dictionary()[language]["navbar"]["inspection"]}</h1>
-              <p>Þú getur komið við hjá okkur í tjónaskoðun til að fá umsögn og kostnaðarmat vegna viðgerðar eða tjóns sem þú hefur orðið fyrir.</p>
+              <p>{Dictionary()[language]["damage_inspection"]["damage_inspection_text"]}</p>
             </div>
         </Col>
       </Row>

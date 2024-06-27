@@ -51,7 +51,8 @@ export default function Dictionary() {
         },
         "damage_inspection": {
           "corrections": "Réttingar",
-          "painting": "Sprautun"
+          "painting": "Sprautun",
+          "damage_inspection_text": "Þú getur komið við hjá okkur í tjónaskoðun til að fá umsögn og kostnaðarmat vegna viðgerðar eða tjóns sem þú hefur orðið fyrir."
         },
         "gallery": {
           "gallery": "Myndasafn",
@@ -108,7 +109,8 @@ export default function Dictionary() {
         },
         "damage_inspection": {
           "corrections": "Corrections",
-          "painting": "Painting"
+          "painting": "Painting",
+          "damage_inspection_text": "You can stop by for a damage inspection to get an assessment and cost estimate for repairs or damage you have suffered."
         },
         "gallery": {
           "gallery": "Gallery",
