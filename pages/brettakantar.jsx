@@ -30,11 +30,6 @@ export default function Brettakantar() {
     <SimpleLayout>
       <Container>
         <Row>
-          <Col className="col-12 text-center mb-2">
-            <h1>{Dictionary()[language]["catalog"]["producers"]}</h1>
-          </Col>
-        </Row>
-        <Row>
           <MakerIndexCard url='/catalog_dodge' title='Dodge' />
           <MakerIndexCard url='/catalog_chevrolet' title='Chevrolet' />
           <MakerIndexCard url='/catalog_jeep' title='Jeep' />
@@ -50,12 +45,6 @@ export default function Brettakantar() {
           <MakerIndexCard url='/catalog_suzuki' title='Suzuki' />
           <MakerIndexCard url='/catalog_volkswagen' title='Volkswagen' />
           <MakerIndexCard url='/catalog_scaut' title='Scaut' />
-        </Row>
-        <Row className="mt-5">
-          <Col className="col-12 text-center">
-            <h1>{Dictionary()[language]["catalog"]["mold_making"]}</h1>
-            <p>{Dictionary()[language]["catalog"]["mold_making_text"]}</p>
-          </Col>
         </Row>
       </Container>
     </SimpleLayout>
