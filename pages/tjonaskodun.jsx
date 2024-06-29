@@ -15,6 +15,8 @@ export default function Tjonaskodun() {
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '60vh' }}>
               <h1 className="display-2 py-3">{Dictionary()[language]["navbar"]["inspection"]}</h1>
               <p>{Dictionary()[language]["damage_inspection"]["damage_inspection_text"]}</p>
+              <h1 className="display-2 py-3">Bílaréttingar</h1>
+              <h1 className="display-2 py-3">Bílamálun</h1>
             </div>
         </Col>
       </Row>
