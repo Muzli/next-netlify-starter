@@ -13,7 +13,7 @@ import Table from 'react-bootstrap/Table';
 // ->Felgubreidd
 // Og cards fyrir vörur
 
-export default function CatalogScaut() {
+export default function CatalogGrenadier() {
 
   const { language } = useContext(LanguageContext);
   
@@ -23,7 +23,7 @@ export default function CatalogScaut() {
       <main>        
         <Row className="align-items-start me-0">
           <Col className="col-12 text-center mb-2">
-            <h1>Scaut</h1>
+            <h1>Grenadier</h1>
             <Table className="catalog-table">
               <thead>
                 <tr>
@@ -36,12 +36,19 @@ export default function CatalogScaut() {
               </thead>
               <tbody>
                 <tr>
-                    <td className="p-1 p-md-3">Scaut</td>
-                    <td className="p-1 p-md-3">1975-</td>
+                    <td className="p-1 p-md-3">Grenadier</td>
+                    <td className="p-1 p-md-3">2024</td>
+                    <td className="p-1 p-md-3">37"</td>
+                    <td className="p-1 p-md-3"></td>
+                    <td className="p-1 p-md-3">- kr.</td>
+                </tr>
+                <tr>
+                    <td className="p-1 p-md-3">Grenadier</td>
+                    <td className="p-1 p-md-3">2024</td>
                     <td className="p-1 p-md-3">44"</td>
                     <td className="p-1 p-md-3"></td>
                     <td className="p-1 p-md-3">- kr.</td>
-                </tr>                
+                </tr>
               </tbody>
             </Table>
           </Col>

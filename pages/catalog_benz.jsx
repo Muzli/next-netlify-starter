@@ -42,49 +42,49 @@ export default function CatalogBenz() {
                     <td className="p-1 p-md-3">1995-2005</td>
                     <td className="p-1 p-md-3">35"</td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">228.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                     <td className="p-1 p-md-3">Sprinter</td>
                     <td className="p-1 p-md-3">2006-2017</td>
                     <td className="p-1 p-md-3">35"</td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">228.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                     <td className="p-1 p-md-3">Sprinter</td>
                     <td className="p-1 p-md-3">2006-2017</td>
                     <td className="p-1 p-md-3">44"-46"</td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">336.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                     <td className="p-1 p-md-3">Sprinter</td>
                     <td className="p-1 p-md-3">2018-</td>
                     <td className="p-1 p-md-3">35"</td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">252.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                     <td className="p-1 p-md-3">Sprinter</td>
                     <td className="p-1 p-md-3">2018-</td>
                     <td className="p-1 p-md-3">44"-46"</td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">414.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                     <td className="p-1 p-md-3">Sprinter {Dictionary()[language]["catalog"]["door_adjustment_piece"]}</td>
                     <td className="p-1 p-md-3"></td>
                     <td className="p-1 p-md-3"></td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">110.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                     <td className="p-1 p-md-3">Sprinter {Dictionary()[language]["catalog"]["side_extension"]} 2 {Dictionary()[language]["general"]["pcs"]}</td>
                     <td className="p-1 p-md-3"></td>
                     <td className="p-1 p-md-3"></td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">230.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>                
               </tbody>
             </Table>

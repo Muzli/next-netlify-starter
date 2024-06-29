@@ -42,91 +42,91 @@ export default function CatalogJeep() {
                   <td className="p-1 p-md-3">1999-2005</td>
                   <td className="p-1 p-md-3">33"-35" Limited</td>
                   <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">204.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Grand Cherokee WJ</td>
                   <td className="p-1 p-md-3">1999-2005</td>
                   <td className="p-1 p-md-3">33"-35" Laredo</td>
                   <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">204.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Grand Cherokee WJ</td>
                   <td className="p-1 p-md-3">1999-2005</td>
                   <td className="p-1 p-md-3">38"-44"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Grand Cherokee WK</td>
                   <td className="p-1 p-md-3">2006-2010</td>
                   <td className="p-1 p-md-3">33"-35"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">215.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Grand Cherokee-{Dictionary()[language]["catalog"]["wide_flares"]} WJ/WK</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">44"-46"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Grand Cherokee WK2</td>
                   <td className="p-1 p-md-3">2011-2021</td>
                   <td className="p-1 p-md-3">35"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">228.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Wrangler JK</td>
                   <td className="p-1 p-md-3">2007-2018</td>
                   <td className="p-1 p-md-3">40"</td>
                   <td className="p-1 p-md-3">+9 cm</td>
-                  <td className="p-1 p-md-3">414.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Wrangler JK</td>
                   <td className="p-1 p-md-3">2007-2018</td>
                   <td className="p-1 p-md-3">44"</td>
                   <td className="p-1 p-md-3">+21 E28 cm</td>
-                  <td className="p-1 p-md-3">472.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Wrangler JL</td>
                   <td className="p-1 p-md-3">2019-</td>
                   <td className="p-1 p-md-3">37"</td>
                   <td className="p-1 p-md-3">+4,5 cm</td>
-                  <td className="p-1 p-md-3">391.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Wrangler JL</td>
                   <td className="p-1 p-md-3">2019-</td>
                   <td className="p-1 p-md-3">37"</td>
                   <td className="p-1 p-md-3">+9 cm</td>
-                  <td className="p-1 p-md-3">414.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Wrangler JL</td>
                   <td className="p-1 p-md-3">2019-</td>
                   <td className="p-1 p-md-3">37"</td>
                   <td className="p-1 p-md-3">+12 cm</td>
-                  <td className="p-1 p-md-3">414.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Wrangler JL</td>
                   <td className="p-1 p-md-3">2019-</td>
                   <td className="p-1 p-md-3">40"</td>
                   <td className="p-1 p-md-3">+9 cm</td>
-                  <td className="p-1 p-md-3">414.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Wrangler JL {Dictionary()[language]["catalog"]["pickup"]}</td>
                   <td className="p-1 p-md-3">2019-</td>
                   <td className="p-1 p-md-3">37"</td>
                   <td className="p-1 p-md-3">+12 cm</td>
-                  <td className="p-1 p-md-3">414.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
               </tbody>
             </Table>

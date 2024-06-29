@@ -42,21 +42,21 @@ export default function CatalogSuzuki() {
                     <td className="p-1 p-md-3">2000-2012</td>
                     <td className="p-1 p-md-3">35"</td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">210.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                     <td className="p-1 p-md-3">Jimny</td>
                     <td className="p-1 p-md-3">2012-2017</td>
                     <td className="p-1 p-md-3">35"</td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">210.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                     <td className="p-1 p-md-3">Jimny</td>
                     <td className="p-1 p-md-3">2018-</td>
                     <td className="p-1 p-md-3">33"-35"</td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">252.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>                
               </tbody>
             </Table>

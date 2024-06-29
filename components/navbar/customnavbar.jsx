@@ -46,6 +46,9 @@ function CustomNavbar() {
             <Link href="/catalog_ford" passHref>
               <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_ford');}}>Ford</NavDropdown.Item>
             </Link>
+            <Link href="/catalog_grenadier" passHref>
+              <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_grenadier');}}>Grenadier</NavDropdown.Item>
+            </Link>
             <Link href="/catalog_musso" passHref>
               <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_musso');}}>Musso</NavDropdown.Item>
             </Link>

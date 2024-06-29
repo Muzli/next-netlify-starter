@@ -40,14 +40,14 @@ export default function CatalogMusso() {
                   <td className="p-1 p-md-3">2002-2017</td>
                   <td className="p-1 p-md-3">33"-35"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
               </tr>
               <tr>
                   <td className="p-1 p-md-3">Rexton</td>
                   <td className="p-1 p-md-3">2018-</td>
                   <td className="p-1 p-md-3">35"-37"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">305.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
               </tr>
               </tbody>
             </Table>

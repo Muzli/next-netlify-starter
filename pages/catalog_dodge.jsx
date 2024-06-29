@@ -40,35 +40,35 @@ export default function CatalogDodge() {
                     <td className="p-1 p-md-3">2003-2009</td>
                     <td className="p-1 p-md-3">32"-33"</td>
                     <td className="p-1 p-md-3">8"</td>
-                    <td className="p-1 p-md-3">192.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                   </tr>
                   <tr>
                     <td className="p-1 p-md-3">Ram 2500</td>
                     <td className="p-1 p-md-3">2003-2009</td>
                     <td className="p-1 p-md-3">35"-37"</td>
                     <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">204.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                   </tr>
                   <tr>
                     <td className="p-1 p-md-3">Ram 2500</td>
                     <td className="p-1 p-md-3">2003-2009</td>
                     <td className="p-1 p-md-3">38"</td>
                     <td className="p-1 p-md-3">12"-14"</td>
-                    <td className="p-1 p-md-3">228.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                   </tr>
                   <tr>
                     <td className="p-1 p-md-3">Ram 3500</td>
                     <td className="p-1 p-md-3">2010-2018</td>
                     <td className="p-1 p-md-3">37"</td>
                     <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">252.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                   </tr>
                   <tr>
                     <td className="p-1 p-md-3">Ram 3500</td>
                     <td className="p-1 p-md-3">2019-</td>
                     <td className="p-1 p-md-3">37"-40"</td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">264.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                   </tr>
                 </tbody>
               </Table>

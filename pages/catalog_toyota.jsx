@@ -42,210 +42,210 @@ export default function CatalogToyota() {
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">38"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 70</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">35"</td>
                   <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">228.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 70</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">38"</td>
                   <td className="p-1 p-md-3">12"-14"</td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 70</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">44"</td>
                   <td className="p-1 p-md-3">14"</td>
-                  <td className="p-1 p-md-3">276.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 80</td>
                   <td className="p-1 p-md-3">1990-2007</td>
                   <td className="p-1 p-md-3">38"</td>
                   <td className="p-1 p-md-3">12"-14"</td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 80</td>
                   <td className="p-1 p-md-3">1990-1997</td>
                   <td className="p-1 p-md-3">38"-44"</td>
                   <td className="p-1 p-md-3">13 cm {Dictionary()[language]["catalog"]["adjustment"]}</td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 80</td>
                   <td className="p-1 p-md-3">1999-</td>
                   <td className="p-1 p-md-3">44"-46"</td>
                   <td className="p-1 p-md-3">11 cm {Dictionary()[language]["catalog"]["adjustment"]}</td>
-                  <td className="p-1 p-md-3">348.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 80</td>
                   <td className="p-1 p-md-3">1999-</td>
                   <td className="p-1 p-md-3">44"-46"</td>
                   <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["whole_rear"]}</td>
-                  <td className="p-1 p-md-3">348.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 100</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">35"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 100</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">38"</td>
                   <td className="p-1 p-md-3">16 cm {Dictionary()[language]["catalog"]["wide"]}</td>
-                  <td className="p-1 p-md-3">276.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 100</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">44"-46"</td>
                   <td className="p-1 p-md-3">26 cm {Dictionary()[language]["catalog"]["wide"]}</td>
-                  <td className="p-1 p-md-3">348.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 100</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">44"-46"</td>
                   <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["whole_rear"]}</td>
-                  <td className="p-1 p-md-3">348.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 150 ({Dictionary()[language]["catalog"]["modification"]} 2015 {Dictionary()[language]["general"]["and"]} 2018)</td>
                   <td className="p-1 p-md-3">2008-</td>
                   <td className="p-1 p-md-3">35"</td>
                   <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 150 ({Dictionary()[language]["catalog"]["modification"]} 2015 {Dictionary()[language]["general"]["and"]} 2018)</td>
                   <td className="p-1 p-md-3">2008-</td>
                   <td className="p-1 p-md-3">38"</td>
                   <td className="p-1 p-md-3">12"</td>
-                  <td className="p-1 p-md-3">276.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 150 ({Dictionary()[language]["catalog"]["modification"]} 2015 {Dictionary()[language]["general"]["and"]} 2018)</td>
                   <td className="p-1 p-md-3">2008-</td>
                   <td className="p-1 p-md-3">42"</td>
                   <td className="p-1 p-md-3">12"</td>
-                  <td className="p-1 p-md-3">318.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 150 ({Dictionary()[language]["catalog"]["modification"]} 2015 {Dictionary()[language]["general"]["and"]} 2018)</td>
                   <td className="p-1 p-md-3">2008-</td>
                   <td className="p-1 p-md-3">44"</td>
                   <td className="p-1 p-md-3">14"</td>
-                  <td className="p-1 p-md-3">437.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 150 {Dictionary()[language]["catalog"]["new_look"]}</td>
                   <td className="p-1 p-md-3">2018-</td>
                   <td className="p-1 p-md-3">42"</td>
                   <td className="p-1 p-md-3">12"</td>
-                  <td className="p-1 p-md-3">360.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 150</td>
                   <td className="p-1 p-md-3">2018-</td>
                   <td className="p-1 p-md-3">44"</td>
                   <td className="p-1 p-md-3">14"</td>
-                  <td className="p-1 p-md-3">437.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 200</td>
                   <td className="p-1 p-md-3">2008-</td>
                   <td className="p-1 p-md-3">35"</td>
                   <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Lc 200</td>
                   <td className="p-1 p-md-3">2008-</td>
                   <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["running_board"]}</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">110.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Hilux</td>
                   <td className="p-1 p-md-3">1998-2007</td>
                   <td className="p-1 p-md-3">33"-35"</td>
                   <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Hilux</td>
                   <td className="p-1 p-md-3">1998-2007</td>
                   <td className="p-1 p-md-3">38"</td>
                   <td className="p-1 p-md-3">12"</td>
-                  <td className="p-1 p-md-3">290.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Hilux</td>
                   <td className="p-1 p-md-3">2007-2016</td>
                   <td className="p-1 p-md-3">35"</td>
                   <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Hilux</td>
                   <td className="p-1 p-md-3">2007-2016</td>
                   <td className="p-1 p-md-3">38"</td>
                   <td className="p-1 p-md-3">12"-</td>
-                  <td className="p-1 p-md-3">348.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Hilux</td>
                   <td className="p-1 p-md-3">2007-2016</td>
                   <td className="p-1 p-md-3">44"</td>
                   <td className="p-1 p-md-3">12"-</td>
-                  <td className="p-1 p-md-3">368.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Hilux ({Dictionary()[language]["catalog"]["new_rear"]} 2020)</td>
                   <td className="p-1 p-md-3">2017-</td>
                   <td className="p-1 p-md-3">35"</td>
                   <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Hilux</td>
                   <td className="p-1 p-md-3">2017-</td>
                   <td className="p-1 p-md-3">38"-40"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">276.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Tacoma</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">35"-37"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Tacoma</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">35"-40"</td>
                   <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["adjustment"]}</td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Tacoma</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">38"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">276.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
               </tbody>
             </Table>

@@ -40,7 +40,7 @@ export default function CatalogVolkswagen() {
                     <td className="p-1 p-md-3">2016-</td>
                     <td className="p-1 p-md-3">35"</td>
                     <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">252.000 kr.</td>
+                    <td className="p-1 p-md-3">- kr.</td>
                 </tr>                
               </tbody>
             </Table>

@@ -40,28 +40,28 @@ export default function CatalogChevrolet() {
                   <td className="p-1 p-md-3">2000-2006</td>
                   <td className="p-1 p-md-3">33"-35"</td>
                   <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">216.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Silverado 2500</td>
                   <td className="p-1 p-md-3">2000-2006</td>
                   <td className="p-1 p-md-3">38"-44"</td>
                   <td className="p-1 p-md-3">14"</td>
-                  <td className="p-1 p-md-3">264.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Silverado 3500</td>
                   <td className="p-1 p-md-3">2015-2018</td>
                   <td className="p-1 p-md-3">37"</td>
                   <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">252.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Silverado 3500</td>
                   <td className="p-1 p-md-3">2019-</td>
                   <td className="p-1 p-md-3">37"</td>
                   <td className="p-1 p-md-3">9"</td>
-                  <td className="p-1 p-md-3">276.000 kr.</td>
+                  <td className="p-1 p-md-3">- kr.</td>
                 </tr>
               </tbody>
             </Table>
