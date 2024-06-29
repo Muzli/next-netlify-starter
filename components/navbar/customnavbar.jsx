@@ -52,9 +52,6 @@ function CustomNavbar() {
             <Link href="/catalog_isuzu" passHref>
               <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_isuzu');}}>Isuzu</NavDropdown.Item>
             </Link>
-            <Link href="/catalog_landrover" passHref>
-              <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_landrover');}}>Land Rover</NavDropdown.Item>
-            </Link>
             <Link href="/catalog_iveco" passHref>
               <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_iveco');}}>Iveco</NavDropdown.Item>
             </Link>
