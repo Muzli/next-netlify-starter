@@ -15,15 +15,10 @@ export default function Home() {
             <Row>
                 <IndexCard backgroundClass='indexcard lc-background-img' url='/brettakantar' title={Dictionary()[language]['navbar']['catalog']} />
                 <span className="col-lg-1"/>
-                <IndexCard backgroundClass='indexcard' url='/tjonaskodun' title={Dictionary()[language]["navbar"]["inspection"]} />        
+                <IndexCard backgroundClass='indexcard' url='/tjonaskodun' title={Dictionary()[language]["navbar"]["inspection"]} subtitle={Dictionary()[language]["home"]["co_operators"]} />        
             </Row>
             <Row className="margin-top">
                 <IndexCardDouble backgroundClass='indexcard expo-background-img' url='/myndasafn' title={Dictionary()[language]["navbar"]["gallery"]} />
-            </Row>
-            <Row>
-                <Col id='coop-index-header' className="d-flex col-12 mt-3 text-lg-center justify-content-center">
-                    <h4>{Dictionary()[language]["home"]["co_operators"]}</h4>
-                </Col>
             </Row>
         </SimpleLayout>
       )
