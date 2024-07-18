@@ -22,7 +22,7 @@ export default function CatalogJeep() {
     <>
       <CustomNavbar />
       <main>
-        <BrandCarousel brand="Jeep" number_of_images="4"/>        
+        <BrandCarousel brand="Jeep" number_of_images="6"/>        
         <Row className="align-items-start me-0">
           <Col className="col-12 text-center mb-2">
             <h1>JEEP</h1>
