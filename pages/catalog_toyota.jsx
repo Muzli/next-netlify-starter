@@ -22,7 +22,7 @@ export default function CatalogToyota() {
     <>
       <CustomNavbar />
       <main>       
-        <BrandCarousel brand="Toyota" number_of_images="4"/> 
+        <BrandCarousel brand="Toyota" number_of_images="5"/> 
         <Row className="align-items-start me-0">
           <Col className="col-12 text-center mb-2">
             <h1>Toyota</h1>
