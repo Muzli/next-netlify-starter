@@ -16,7 +16,7 @@ function Footer() {
               Formverk ehf. Bæjarflöt 6, 112 Reykjavík
             </Col>
             <Col className="col-12 text-center">
-              {Dictionary()[language]["footer"]["phone"]}: 567 7660
+              567 7660 - formverk(hjá)formverk.is
             </Col>
           </Row>
         </Col>
