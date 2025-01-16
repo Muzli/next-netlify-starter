@@ -5,6 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
+import BrandCarousel from '@components/carousel/brandCarousel';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -20,7 +21,8 @@ export default function CatalogMusso() {
   return (
     <>
       <CustomNavbar />
-      <main>        
+      <main>      
+      <BrandCarousel brand="Musso" number_of_images="6"/>  
         <Row className="align-items-start me-0">
           <Col className="col-12 text-center mb-2">
             <h1>Musso</h1>
