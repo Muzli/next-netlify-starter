@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useContext } from 'react';
 import SimpleLayout from '../components/layout/simple';
-import ImageGalleryTemplate from '../components/imagegallerytemplate/imageGallerytemplate';
+import ImageGalleryTemplate from '../components/imagegallerytemplate/imageGalleryTemplate';
 import { Container } from 'react-bootstrap';
 import LanguageContext from 'utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
