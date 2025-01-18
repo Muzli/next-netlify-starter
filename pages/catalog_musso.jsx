@@ -23,7 +23,12 @@ export default function CatalogMusso() {
       <CustomNavbar />
       <main>      
       <BrandCarousel brand="Musso" number_of_images="6"/>  
-        <Row className="align-items-start me-0">
+      <Row className="align-items-start mt-3 me-0  mb-2">
+        <Col className="col-12 text-center">
+          <a href="/myndasafntemplate?producer=Musso"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
+        </Col>
+      </Row>
+      <Row className="align-items-start me-0">
           <Col className="col-12 text-center mb-2">
             <h1>Musso</h1>
             <Table className="catalog-table">

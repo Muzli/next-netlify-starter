@@ -9,7 +9,7 @@ import Dictionary from '../utilities/Language/dictionary.js';
 export default function Myndasafn() {
 
   const { language } = useContext(LanguageContext);
-
+  
   return (
     <SimpleLayout>
       <Container>

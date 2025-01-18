@@ -23,6 +23,11 @@ export default function CatalogSuzuki() {
       <CustomNavbar />
       <main>    
         <BrandCarousel brand="Suzuki" number_of_images="1"/>    
+        <Row className="align-items-start mt-3 me-0  mb-2">
+          <Col className="col-12 text-center">
+            <a href="/myndasafntemplate?producer=Suzuki"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
+          </Col>
+        </Row>
         <Row className="align-items-start me-0">
           <Col className="col-12 text-center mb-2">
             <h1>Suzuki</h1>

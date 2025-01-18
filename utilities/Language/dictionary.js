@@ -6,6 +6,16 @@ export default function Dictionary() {
           "and":  "og",
           "pcs": "stk."
         },
+        "producers": {
+          "benz": "Mercedes Benz",
+          "Ford": "Ford",
+          "Iveco": "Iveco",
+          "Jeep": "Jeep",
+          "Musso": "Musso",
+          "Nissan": "Nissan",
+          "Suzuki": "Suzuki",
+          "Toyota": "Toyota"
+        },
         "navbar": {
           "about": "Um okkur",
           "catalog": "Brettakantar",
@@ -25,6 +35,7 @@ export default function Dictionary() {
         },
         "catalog" : { 
           "adjustment": "færsla",
+          "all_photos": "Allar myndir",
           "door_adjustment_piece": "Hurðafærslustykki",
           "front_flares": "Framkantar",
           "modification": "Breyting",
@@ -33,6 +44,7 @@ export default function Dictionary() {
           "newer": "nýrri",
           "new_look": "nýtt útlit",
           "new_rear": "Nýtt bak",
+          "photos": "Myndir",
           "pickup": "Pallbíll",
           "price": "Verð",
           "producers": "Framleiðendur",          
@@ -64,6 +76,16 @@ export default function Dictionary() {
           "and":  "and",
           "pcs": "pcs."
         },
+        "producers": {
+          "benz": "Mercedes Benz",
+          "Ford": "Ford",
+          "Iveco": "Iveco",
+          "Jeep": "Jeep",
+          "Musso": "Musso",
+          "Nissan": "Nissan",
+          "Suzuki": "Suzuki",
+          "Toyota": "Toyota"
+        },
         "navbar": {
           "about": "About us",
           "catalog": "Fender Flares",
@@ -83,6 +105,7 @@ export default function Dictionary() {
         },
         "catalog" : { 
           "adjustment": "adjustment",
+          "all_photos": "All photos",
           "door_adjustment_piece": "Door adjustment piece",
           "front_flares": "Front flares",
           "modification": "Modification",
@@ -91,6 +114,7 @@ export default function Dictionary() {
           "newer": "newer",
           "new_look": "new look",
           "new_rear": "New rear",
+          "photos": "Photos",
           "pickup": "Pickup",
           "price": "Price",
           "producers": "Producers",
