@@ -1,11 +1,12 @@
 import { useContext } from 'react';
 import CustomNavbar from 'components/navbar/customnavbar'
 import Footer from 'components/footer/footer'
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
 import BrandCarousel from '@components/carousel/brandCarousel';
+import { useRouter } from 'next/router';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -16,6 +17,8 @@ import BrandCarousel from '@components/carousel/brandCarousel';
 
 export default function CatalogBenz() {
 
+  const router = useRouter();
+
   const { language } = useContext(LanguageContext);
   
   return (
@@ -25,7 +28,7 @@ export default function CatalogBenz() {
         <BrandCarousel brand="Benz" number_of_images="1"/>
         <Row className="align-items-start mt-3 me-0  mb-2">
           <Col className="col-12 text-center">
-            <a href="/myndasafntemplate?producer=benz"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
+            <Button onClick={(e) => {e.preventDefault(); router.push('/myndasafntemplate?producer=benz');}}><h5>{Dictionary()[language]["catalog"]["all_photos"]}</h5></Button>
           </Col>
         </Row>      
         <Row className="align-items-start me-0">
