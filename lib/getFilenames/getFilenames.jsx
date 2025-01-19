@@ -1,15 +1,21 @@
 import fs from 'fs';
 import path from 'path';
 
+function logDirectories(base_dir) {
+  dirs = fs.readdirSync(base_dir).filter(file => fs.lstatSync(path.join(base_dir, file)).isDirectory());
+  console.log(base_dir, dirs);
+  dirs.forEach((dir) => {
+    logDirectories(path.join(base_dir, dir));
+  });
+}
+
 export function getFilenames(directory) {
   console.log('process.cwd()', process.cwd());
-  var testDirPath = path.join(__dirname, '..', '..', 'public', directory);
-  var dirs = fs.readdirSync(testDirPath).filter(file => fs.lstatSync(path.join(testDirPath, file)).isDirectory());
-  var files = fs.readdirSync(testDirPath).filter(file => fs.lstatSync(path.join(testDirPath, file)).isFile());
-  console.log('contents dirs', dirs);
-  console.log('contents files', files);
-  
-  
+  var rootDirPath = path.join(__dirname, '..', '..');
+  var dirs = fs.readdirSync(rootDirPath).filter(file => fs.lstatSync(path.join(rootDirPath, file)).isDirectory());
+  console.log('root dirs', dirs);
+  dirs.forEach((dir) => { logDirectories(path.join(rootDirPath, dir)); });
+   
   const dirPath = path.join(process.cwd(), directory);
   return fs.readdirSync(dirPath).filter(file => file.endsWith('.jpeg') || file.endsWith('.jpg') || file.endsWith('.png'));
 }
