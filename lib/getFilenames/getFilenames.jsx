@@ -2,8 +2,9 @@ import fs from 'fs';
 import path from 'path';
 
 function logDirectories(base_dir) {
-  dirs = fs.readdirSync(base_dir).filter(file => fs.lstatSync(path.join(base_dir, file)).isDirectory());
-  console.log(base_dir, dirs);
+  var dirs = fs.readdirSync(base_dir).filter(file => fs.lstatSync(path.join(base_dir, file)).isDirectory());
+  console.log("base_dir", base_dir);
+  console.log("dirs", dirs);
   dirs.forEach((dir) => {
     logDirectories(path.join(base_dir, dir));
   });
