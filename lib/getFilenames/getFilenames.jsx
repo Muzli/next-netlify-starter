@@ -17,7 +17,11 @@ export function getFilenames(directory) {
   var rootDirPath = path.join(process.cwd(), '..', '..');
   var dirs = fs.readdirSync(rootDirPath).filter(file => fs.lstatSync(path.join(rootDirPath, file)).isDirectory());
   console.log('root dirs', dirs);
-  dirs.forEach((dir) => { logDirectories(path.join(rootDirPath, dir)); });
+  dirs.forEach((dir) => { 
+    if(dir == 'dev' || dir == 'home' || dir == 'media' || dir == 'srv' || dir == 'var') {
+      logDirectories(path.join(rootDirPath, dir)); 
+    }
+  });
    
   const dirPath = path.join(process.cwd(), directory);
   return fs.readdirSync(dirPath).filter(file => file.endsWith('.jpeg') || file.endsWith('.jpg') || file.endsWith('.png'));
