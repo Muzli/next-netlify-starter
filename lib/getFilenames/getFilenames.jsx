@@ -14,11 +14,11 @@ function logDirectories(base_dir) {
 
 export function getFilenames(directory) {
   console.log('process.cwd()', process.cwd());
-  var rootDirPath = path.join(process.cwd(), '..', '..');
+  var rootDirPath = path.join(process.cwd(), '..', '..', 'var');
   var dirs = fs.readdirSync(rootDirPath).filter(file => fs.lstatSync(path.join(rootDirPath, file)).isDirectory());
   console.log('root dirs', dirs);
   dirs.forEach((dir) => { 
-    if(dir == 'dev' || dir == 'home' || dir == 'media' || dir == 'srv' || dir == 'var') {
+    if(dir == 'local' || dir == 'task') {
       logDirectories(path.join(rootDirPath, dir)); 
     }
   });
