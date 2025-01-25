@@ -25,7 +25,7 @@ export default function CatalogBenz() {
         <BrandCarousel brand="Benz" number_of_images="1"/>
         <Row className="align-items-start mt-3 me-0  mb-2">
           <Col className="col-12 text-center">
-            <a href="/myndasafntemplate?producer=benz"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
+            <a href="/gallery_benz"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
           </Col>
         </Row>      
         <Row className="align-items-start me-0">
