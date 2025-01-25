@@ -25,7 +25,7 @@ export default function CatalogJeep() {
         <BrandCarousel brand="Jeep" number_of_images="6"/>        
         <Row className="align-items-start mt-3 me-0  mb-2">
           <Col className="col-12 text-center">
-            <a href="/myndasafntemplate?producer=Jeep"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
+            <a href="/gallery_jeep"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
           </Col>
         </Row>
         <Row className="align-items-start me-0">

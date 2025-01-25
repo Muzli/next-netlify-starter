@@ -35,7 +35,7 @@ export default function Brettakantar() {
           <MakerIndexCard url='/catalog_jeep' title='Jeep' />
           <MakerIndexCard url='/catalog_ford' title='Ford' />
           <MakerIndexCard url='/catalog_grenadier' title='Grenadier' />
-          <MakerIndexCard url='/catalog_musso' title='Musso' />
+          <MakerIndexCard url='/catalog_musso' title='Musso & Rexton' />
           <MakerIndexCard url='/catalog_isuzu' title='Isuzu' />
           <MakerIndexCard url='/catalog_iveco' title='Iveco' />
           <MakerIndexCard url='/catalog_toyota' title='Toyota' />

@@ -11,7 +11,7 @@ export default function Dictionary() {
           "Ford": "Ford",
           "Iveco": "Iveco",
           "Jeep": "Jeep",
-          "Musso": "Musso",
+          "Musso": "Musso & Rexton",
           "Nissan": "Nissan",
           "Suzuki": "Suzuki",
           "Toyota": "Toyota"
@@ -81,7 +81,7 @@ export default function Dictionary() {
           "Ford": "Ford",
           "Iveco": "Iveco",
           "Jeep": "Jeep",
-          "Musso": "Musso",
+          "Musso": "Musso & Rexton",
           "Nissan": "Nissan",
           "Suzuki": "Suzuki",
           "Toyota": "Toyota"
