@@ -25,7 +25,7 @@ export default function CatalogFord() {
       <BrandCarousel brand="Ford" number_of_images="7"/>      
       <Row className="align-items-start mt-3 me-0  mb-2">
         <Col className="col-12 text-center">
-          <a href="/myndasafntemplate?producer=Ford"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
+          <a href="/gallery_ford"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
         </Col>
       </Row>  
       <Row className="align-items-start me-0">
