@@ -58,9 +58,35 @@ function CustomNavbar() {
             <Link href="/catalog_iveco" passHref>
               <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_iveco');}}>Iveco</NavDropdown.Item>
             </Link>
-            <Link href="/catalog_toyota" passHref>
-              <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_toyota');}}>Toyota</NavDropdown.Item>
-            </Link>
+            <NavDropdown title="Toyota" id="collasible-nav-dropdown-toyota" className="navbar-submenu-header">
+              <Link href="/catalog_toyota" passHref>
+                <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_toyota?model=lc_70');}}>LC 70</NavDropdown.Item>
+              </Link>
+              <Link href="/catalog_toyota" passHref>
+                <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_toyota?model=lc_80');}}>LC 80</NavDropdown.Item>
+              </Link>
+              <Link href="/catalog_toyota" passHref>
+                <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_toyota?model=lc_90');}}>LC 90</NavDropdown.Item>
+              </Link>
+              <Link href="/catalog_toyota" passHref>
+                <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_toyota?model=lc_100');}}>LC 100</NavDropdown.Item>
+              </Link>
+              <Link href="/catalog_toyota" passHref>
+                <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_toyota?model=lc_150');}}>LC 150</NavDropdown.Item>
+              </Link>
+              <Link href="/catalog_toyota" passHref>
+                <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_toyota?model=lc_200');}}>LC 200</NavDropdown.Item>
+              </Link>
+              <Link href="/catalog_toyota" passHref>
+                <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_toyota?model=lc_250');}}>LC 250</NavDropdown.Item>
+              </Link>
+              <Link href="/catalog_toyota" passHref>
+                <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_toyota?model=hilux');}}>Hilux</NavDropdown.Item>
+              </Link>
+              <Link href="/catalog_toyota" passHref>
+                <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_toyota?model=tacoma');}}>Tacoma</NavDropdown.Item>
+              </Link>
+            </NavDropdown>
             <Link href="/catalog_nissan" passHref>
               <NavDropdown.Item onClick={(e) => {e.preventDefault(); router.push('/catalog_nissan');}}>Nissan</NavDropdown.Item>
             </Link>

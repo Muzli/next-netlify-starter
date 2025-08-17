@@ -36,6 +36,7 @@ export default function Dictionary() {
         "catalog" : { 
           "adjustment": "færsla",
           "all_photos": "Allar myndir",
+          "all_toyota_photos": "Allar Toyota myndir",
           "contact_for_price": "Hafðu samband fyrir verð",
           "door_adjustment_piece": "Hurðafærslustykki",
           "front_flares": "Framkantar",
@@ -107,6 +108,7 @@ export default function Dictionary() {
         "catalog" : { 
           "adjustment": "adjustment",
           "all_photos": "All photos",
+          "all_toyota_photos": "All Toyota photos",
           "contact_for_price": "Contact us for price",
           "door_adjustment_piece": "Door adjustment piece",
           "front_flares": "Front flares",
