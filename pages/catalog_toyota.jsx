@@ -22,7 +22,7 @@ export default function CatalogToyota() {
     <>
       <CustomNavbar />
       <main>       
-        <BrandCarousel brand="Toyota" number_of_images="5"/> 
+        <BrandCarousel brand="Toyota" number_of_images="6"/> 
         <Row className="align-items-start mt-3 me-0  mb-2">
           <Col className="col-12 text-center">
             <a href="/gallery_toyota"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
@@ -181,6 +181,27 @@ export default function CatalogToyota() {
                   <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["running_board"]}</td>
                   <td className="p-1 p-md-3"></td>
                   <td className="p-1 p-md-3">- kr.</td>
+                </tr>
+                <tr>
+                  <td className="p-1 p-md-3">Lc 250</td>
+                  <td className="p-1 p-md-3">2025-</td>
+                  <td className="p-1 p-md-3">35" - 37"</td>
+                  <td className="p-1 p-md-3"></td>
+                  <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["contact_for_price"]}</td>
+                </tr>
+                <tr>
+                  <td className="p-1 p-md-3">Lc 250</td>
+                  <td className="p-1 p-md-3">2025-</td>
+                  <td className="p-1 p-md-3">42"</td>
+                  <td className="p-1 p-md-3"></td>
+                  <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["contact_for_price"]}</td>
+                </tr>
+                <tr>
+                  <td className="p-1 p-md-3">Lc 250</td>
+                  <td className="p-1 p-md-3">2025-</td>
+                  <td className="p-1 p-md-3">44"</td>
+                  <td className="p-1 p-md-3"></td>
+                  <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["contact_for_price"]}</td>
                 </tr>
                 <tr>
                   <td className="p-1 p-md-3">Hilux</td>

@@ -36,6 +36,22 @@ export default function GalleryBenz() {
             <Photo producer="Toyota" filename="carousel_6.jpg"/>
           </Col>
         </Row>
+        <Row>
+          <Col className="col-lg-4 col-12 mb-4 mb-lg-0">
+            <Photo producer="Toyota" filename="Toyota 3.jpg"/>
+          </Col>
+          <Col className="col-lg-4 col-12 mb-4 mb-lg-0">
+            <Photo producer="Toyota" filename="Toyota 4.jpg"/>
+          </Col>
+          <Col className="col-lg-4 col-12 mb-4 mb-lg-0">
+            <Photo producer="Toyota" filename="Toyota 5.jpg"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="col-lg-4 col-12 mb-4 mb-lg-0">
+            <Photo producer="Toyota" filename="Toyota 6.jpg"/>
+          </Col>
+        </Row>
       </Container>
     </SimpleLayout>
   );

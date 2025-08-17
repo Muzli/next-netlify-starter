@@ -36,6 +36,7 @@ export default function Dictionary() {
         "catalog" : { 
           "adjustment": "færsla",
           "all_photos": "Allar myndir",
+          "contact_for_price": "Hafðu samband fyrir verð",
           "door_adjustment_piece": "Hurðafærslustykki",
           "front_flares": "Framkantar",
           "modification": "Breyting",
@@ -106,6 +107,7 @@ export default function Dictionary() {
         "catalog" : { 
           "adjustment": "adjustment",
           "all_photos": "All photos",
+          "contact_for_price": "Contact us for price",
           "door_adjustment_piece": "Door adjustment piece",
           "front_flares": "Front flares",
           "modification": "Modification",
