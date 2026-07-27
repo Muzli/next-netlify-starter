@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import LanguageProvider from 'utilities/Language/languageProvider';
 import SimpleLayout from '../components/layout/simple'
 import MakerIndexCard from '../components/layout/makerindexcard'
-import { Container, Row, Col, SSRProvider } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import LanguageContext from 'utilities/Language/languageContext.js';
 import Dictionary from 'utilities/Language/dictionary';
 

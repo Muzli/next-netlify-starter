@@ -1,5 +1,5 @@
 import SimpleLayout from '../components/layout/simple';
-import { Container, Row, Col, SSRProvider } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -10,7 +10,6 @@ import { Container, Row, Col, SSRProvider } from 'react-bootstrap';
 
 export default function Catalog() {
   return (
-    <SSRProvider>
       <SimpleLayout>
         <Container>
           <Row>
@@ -20,6 +19,5 @@ export default function Catalog() {
           </Row>
         </Container>
       </SimpleLayout>
-    </SSRProvider>
   )
 }
