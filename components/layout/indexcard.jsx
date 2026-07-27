@@ -7,8 +7,8 @@ export default function IndexCard({backgroundClass, url, title, subtitle = undef
   return (
     <Col className={classname}>
           <div className="text-white">
-            <Link href={url}>
-              <a className="display-2 stretched-link index-link text-white"><strong>{title}</strong></a>              
+            <Link href={url} className="display-2 stretched-link index-link text-white">
+              <strong>{title}</strong>              
             </Link>
             {subtitle && <div className="text-center"><p>{subtitle}</p></div>}
           </div>

@@ -7,8 +7,8 @@ export default function MakerIndexCard({url, title}) {
   return (
     <Col className={classname}>
         <div>
-          <Link href={url}>
-            <a className="stretched-link index-link default-text-color"><strong>{title}</strong></a>
+          <Link href={url} className="stretched-link index-link default-text-color">
+            <strong>{title}</strong>
           </Link>
         </div>
     </Col>

@@ -7,8 +7,8 @@ export default function IndexCardDouble({backgroundClass, url, title}) {
   return (
     <Col className={classname}>
           <div className="display-2 text-white">
-            <Link href={url}>
-              <a className="stretched-link index-link text-white"><strong>{title}</strong></a>
+            <Link href={url} className="stretched-link index-link text-white">
+              <strong>{title}</strong>
             </Link>
           </div>
     </Col>
