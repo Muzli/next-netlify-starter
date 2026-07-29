@@ -64,7 +64,7 @@ export default function Dictionary() {
           "year": "Árgerð",          
         },
         "damage_inspection": {
-          "corrections": "Réttingar",
+          "auto_body_repair": "Réttingar",
           "painting": "Sprautun",
           "damage_inspection_text": "Þú getur komið við hjá okkur í tjónaskoðun til að fá umsögn og kostnaðarmat vegna viðgerðar eða tjóns sem þú hefur orðið fyrir."
         },
@@ -136,8 +136,8 @@ export default function Dictionary() {
           "year": "Year",
         },
         "damage_inspection": {
-          "corrections": "Corrections",
-          "painting": "Painting",
+          "auto_body_repair": "Auto Body Repair",
+          "painting": "Auto Painting",
           "damage_inspection_text": "You can stop by for a damage inspection to get an assessment and cost estimate for repairs or damage you have suffered."
         },
         "gallery": {
