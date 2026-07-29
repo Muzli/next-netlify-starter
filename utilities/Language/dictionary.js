@@ -65,7 +65,9 @@ export default function Dictionary() {
         },
         "damage_inspection": {
           "auto_body_repair": "Réttingar",
+          "auto_body_repair_text": "Við sjáum um að rétta beyglur og laga skemmdir á yfirbyggingu, hvort sem um er að ræða lítil eða stærri verkefni.",
           "painting": "Sprautun",
+          "painting_text": "Við sjáum um að mála bíla og einstaka hluta eftir þörfum, hvort sem um er að ræða viðgerðir eða endurmálun.",
           "damage_inspection_text": "Þú getur komið við hjá okkur í tjónaskoðun til að fá umsögn og kostnaðarmat vegna viðgerðar eða tjóns sem þú hefur orðið fyrir."
         },
         "gallery": {
@@ -137,7 +139,9 @@ export default function Dictionary() {
         },
         "damage_inspection": {
           "auto_body_repair": "Auto Body Repair",
+          "auto_body_repair_text": "We repair dents and body damage, whether it's a small repair or a larger project.",
           "painting": "Auto Painting",
+          "painting_text": "We provide painting services for vehicles and individual parts, whether it's for repairs or complete refinishing.",
           "damage_inspection_text": "You can stop by for a damage inspection to get an assessment and cost estimate for repairs or damage you have suffered."
         },
         "gallery": {
