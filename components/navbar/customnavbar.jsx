@@ -50,28 +50,8 @@ function CustomNavbar() {
               <NavDropdown.Item as={Link} href="/catalog_isuzu">Isuzu</NavDropdown.Item>
             
               <NavDropdown.Item as={Link} href="/catalog_iveco">Iveco</NavDropdown.Item>
-            
-            <NavDropdown title="Toyota" id="collasible-nav-dropdown-toyota" className="navbar-submenu-header">
-              
-                <NavDropdown.Item as={Link} href="/catalog_toyota?model=lc_70">LC 70</NavDropdown.Item>
-              
-                <NavDropdown.Item as={Link} href="/catalog_toyota?model=lc_80">LC 80</NavDropdown.Item>
-              
-                <NavDropdown.Item as={Link} href="/catalog_toyota?model=lc_90">LC 90</NavDropdown.Item>
-              
-                <NavDropdown.Item as={Link} href="/catalog_toyota?model=lc_100">LC 100</NavDropdown.Item>
-              
-                <NavDropdown.Item as={Link} href="/catalog_toyota?model=lc_150">LC 150</NavDropdown.Item>
-              
-                <NavDropdown.Item as={Link} href="/catalog_toyota?model=lc_200">LC 200</NavDropdown.Item>
-              
-                <NavDropdown.Item as={Link} href="/catalog_toyota?model=lc_250">LC 250</NavDropdown.Item>
-              
-                <NavDropdown.Item as={Link} href="/catalog_toyota?model=hilux">Hilux</NavDropdown.Item>
-              
-                <NavDropdown.Item as={Link} href="/catalog_toyota?model=tacoma">Tacoma</NavDropdown.Item>
-              
-            </NavDropdown>
+
+              <NavDropdown.Item as={Link} href="/catalog_toyota">Toyota</NavDropdown.Item>
             
               <NavDropdown.Item as={Link} href="/catalog_nissan">Nissan</NavDropdown.Item>
            
