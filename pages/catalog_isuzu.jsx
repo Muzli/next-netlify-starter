@@ -5,6 +5,8 @@ import { Row, Col } from 'react-bootstrap';
 import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
+import ProductRows from '../lib/product/productRows'; 
+import { isuzuProducts } from '../lib/product/products/isuzu';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -35,27 +37,10 @@ export default function CatalogIsuzu() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                    <td className="p-1 p-md-3">D Max</td>
-                    <td className="p-1 p-md-3">2007-</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">D Max</td>
-                    <td className="p-1 p-md-3">2007-</td>
-                    <td className="p-1 p-md-3">35" {Dictionary()[language]["catalog"]["wider"]}</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">D Max</td>
-                    <td className="p-1 p-md-3">2017-</td>
-                    <td className="p-1 p-md-3">33"-35"</td>
-                    <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
+                <ProductRows
+                  products={isuzuProducts}
+                  language={language}
+                />
               </tbody>
             </Table>
           </Col>

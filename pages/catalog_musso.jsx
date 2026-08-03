@@ -6,6 +6,8 @@ import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
 import BrandCarousel from '@components/carousel/brandCarousel';
+import ProductRows from '../lib/product/productRows'; 
+import { mussoProducts } from '../lib/product/products/musso';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -42,20 +44,10 @@ export default function CatalogMusso() {
                 </tr>
               </thead>
               <tbody>
-              <tr>
-                  <td className="p-1 p-md-3">Rexton</td>
-                  <td className="p-1 p-md-3">2002-2017</td>
-                  <td className="p-1 p-md-3">33"-35"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-              </tr>
-              <tr>
-                  <td className="p-1 p-md-3">Rexton</td>
-                  <td className="p-1 p-md-3">2018-</td>
-                  <td className="p-1 p-md-3">35"-37"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-              </tr>
+                <ProductRows
+                  products={mussoProducts}
+                  language={language}
+                />
               </tbody>
             </Table>
           </Col>

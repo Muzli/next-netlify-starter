@@ -6,6 +6,8 @@ import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
 import BrandCarousel from '@components/carousel/brandCarousel';
+import ProductRows from '../lib/product/productRows'; 
+import { fordProducts } from '../lib/product/products/ford';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -42,118 +44,10 @@ export default function CatalogFord() {
                 </tr>
               </thead>
               <tbody>
-              <tr>
-                  <td className="p-1 p-md-3">F150 - {Dictionary()[language]["catalog"]["taller_rear"]}</td>
-                  <td className="p-1 p-md-3">2018-2020</td>
-                  <td className="p-1 p-md-3">37"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F150</td>
-                  <td className="p-1 p-md-3">2018-2020</td>
-                  <td className="p-1 p-md-3">42" </td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F150</td>
-                  <td className="p-1 p-md-3">2018-2020</td>
-                  <td className="p-1 p-md-3">44"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F150</td>
-                  <td className="p-1 p-md-3">2021-</td>
-                  <td className="p-1 p-md-3">37"-40"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F150</td>
-                  <td className="p-1 p-md-3">2021-</td>
-                  <td className="p-1 p-md-3">44"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F350</td>
-                  <td className="p-1 p-md-3">1999-2006</td>
-                  <td className="p-1 p-md-3">44"-49"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F350</td>
-                  <td className="p-1 p-md-3">2007-</td>
-                  <td className="p-1 p-md-3">44"-49"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F350</td>
-                  <td className="p-1 p-md-3">2007-</td>
-                  <td className="p-1 p-md-3">54"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F350</td>
-                  <td className="p-1 p-md-3">2012-2016</td>
-                  <td className="p-1 p-md-3">37"-40"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F350</td>
-                  <td className="p-1 p-md-3">2017-</td>
-                  <td className="p-1 p-md-3">37"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F350</td>
-                  <td className="p-1 p-md-3">2017-</td>
-                  <td className="p-1 p-md-3">40"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F350</td>
-                  <td className="p-1 p-md-3">2017-</td>
-                  <td className="p-1 p-md-3">42"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">F350</td>
-                  <td className="p-1 p-md-3">2017-</td>
-                  <td className="p-1 p-md-3">44"-46"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Excursion</td>
-                  <td className="p-1 p-md-3">1999-</td>
-                  <td className="p-1 p-md-3">44"-49"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Econoline</td>
-                  <td className="p-1 p-md-3">1990-</td>
-                  <td className="p-1 p-md-3">44"-49"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Ranger</td>
-                  <td className="p-1 p-md-3">2020-</td>
-                  <td className="p-1 p-md-3">35"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
+                <ProductRows
+                  products={fordProducts}
+                  language={language}
+                />
               </tbody>
             </Table>
           </Col>

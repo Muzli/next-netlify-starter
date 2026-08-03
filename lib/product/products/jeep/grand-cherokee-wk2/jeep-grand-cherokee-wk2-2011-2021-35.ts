@@ -1,0 +1,33 @@
+import type { Product } from "../../../product";
+
+export const jeepGrandCherokeeWk2_20112021_35 = {
+  id: "jeep-grand-cherokee-wk2-2011-2021-35",
+  slug: "jeep-grand-cherokee-wk2-2011-2021-35",
+
+  shortName: {
+    en: "Grand Cherokee WK2",
+    is: "Grand Cherokee WK2",
+  },
+
+  name: {
+    en: "Jeep Grand Cherokee WK2 2011-2021 35\"",
+    is: "Jeep Grand Cherokee WK2 2011-2021 35\"",
+  },
+
+  modelId: "grand-cherokee-wk2",
+  makerId: "jeep",
+
+  years: {
+    yearFrom: 2011,
+    yearTo: 2021,
+  },
+
+  tireSize: {
+    minInches: 35,
+    maxInches: 35,
+  },
+
+  images: [],
+
+  tags: [],
+} satisfies Product;

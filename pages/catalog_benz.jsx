@@ -6,6 +6,9 @@ import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
 import BrandCarousel from '@components/carousel/brandCarousel';
+import ProductRows from '../lib/product/productRows'; 
+import { mercedesBenzProducts } from '../lib/product/products/mercedes-benz';
+
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -42,55 +45,10 @@ export default function CatalogBenz() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                    <td className="p-1 p-md-3">Sprinter</td>
-                    <td className="p-1 p-md-3">1995-2005</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Sprinter</td>
-                    <td className="p-1 p-md-3">2006-2017</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Sprinter</td>
-                    <td className="p-1 p-md-3">2006-2017</td>
-                    <td className="p-1 p-md-3">44"-46"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Sprinter</td>
-                    <td className="p-1 p-md-3">2018-</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Sprinter</td>
-                    <td className="p-1 p-md-3">2018-</td>
-                    <td className="p-1 p-md-3">44"-46"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Sprinter {Dictionary()[language]["catalog"]["door_adjustment_piece"]}</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Sprinter {Dictionary()[language]["catalog"]["side_extension"]} 2 {Dictionary()[language]["general"]["pcs"]}</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>                
+                <ProductRows
+                  products={mercedesBenzProducts}
+                  language={language}
+                />
               </tbody>
             </Table>
           </Col>

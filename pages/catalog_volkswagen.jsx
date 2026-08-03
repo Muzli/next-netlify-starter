@@ -5,6 +5,8 @@ import { Row, Col } from 'react-bootstrap';
 import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
+import ProductRows from '../lib/product/productRows'; 
+import { volkswagenProducts } from '../lib/product/products/volkswagen';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -35,13 +37,10 @@ export default function CatalogVolkswagen() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                    <td className="p-1 p-md-3">Amarok</td>
-                    <td className="p-1 p-md-3">2016-</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>                
+                <ProductRows
+                  products={volkswagenProducts}
+                  language={language}
+                />             
               </tbody>
             </Table>
           </Col>
