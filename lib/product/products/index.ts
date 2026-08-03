@@ -1,7 +1,7 @@
 import { chevroletProducts } from "./chevrolet";
 import { dodgeProducts } from "./dodge";
 import { fordProducts } from "./ford";
-import { ineosProducts } from "./ineos";
+import { grenadierProducts } from "./grenadier";
 import { isuzuProducts } from "./isuzu";
 import { ivecoProducts } from "./iveco";
 import { jeepProducts } from "./jeep";
@@ -20,7 +20,7 @@ export const products = [
   ...chevroletProducts,
   ...dodgeProducts,
   ...fordProducts,
-  ...ineosProducts,
+  ...grenadierProducts,
   ...isuzuProducts,
   ...ivecoProducts,
   ...jeepProducts,
