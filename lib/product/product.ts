@@ -2,7 +2,7 @@ export type DictionaryKey = string;
 
 export type ProductImage = {
   src: string;
-  altKey: DictionaryKey;
+  altKey?: DictionaryKey;
   captionKey?: DictionaryKey;
 };
 
@@ -68,7 +68,7 @@ export function getShortName(
     : product.shortName.en;
 }
 
-export function getName(
+export function getProductName(
   product: Product,
   language: string,
 ): string {

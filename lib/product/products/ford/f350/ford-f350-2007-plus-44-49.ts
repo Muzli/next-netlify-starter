@@ -26,7 +26,7 @@ export const fordF350_2007Plus_4449 = {
     maxInches: 49,
   },
 
-  images: [],
+  images: [{src: 'F350 49.jpg'}, {src: 'F350 49 (2).jpg'}, {src: '44-49 tommur F350 b.jpeg'}, {src: '44-49 tommur F350.jpeg'}, {src: '44-49 tommur F350 c.jpeg'} ],
 
   tags: [],
 } satisfies Product;

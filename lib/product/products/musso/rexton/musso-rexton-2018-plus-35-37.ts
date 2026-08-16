@@ -26,7 +26,7 @@ export const mussoRexton_2018Plus_3537 = {
     maxInches: 37,
   },
 
-  images: [],
+  images: [{src: 'Rexton.jpg'}, {src: 'carousel_2.jpg'}, {src: 'Rexton 35.jpg'}],
 
   tags: [],
 } satisfies Product;

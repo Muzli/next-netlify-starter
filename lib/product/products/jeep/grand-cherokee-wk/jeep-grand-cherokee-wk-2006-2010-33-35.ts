@@ -27,7 +27,7 @@ export const jeepGrandCherokeeWk_20062010_3335 = {
     maxInches: 35,
   },
 
-  images: [],
+  images: [{src: 'Grand Cherokee WK ’05 – ’10. 33″ – 35″ a.jpg'}, {src: 'Grand Cherokee WK ’05 – ’10. 33″ – 35″ b.jpg'}],
 
   tags: [],
 } satisfies Product;

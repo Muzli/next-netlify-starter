@@ -31,7 +31,7 @@ export const isuzuDMax_2007Plus_35 = {
     maxInches: 10,
   },
 
-  images: [],
+  images: [{src: 'Isuzu Dmax ’02 – ’11. 33″ – 35″ a.jpg'}, {src: 'Isuzu Dmax ’02 – ’11. 33″ – 35″ b.jpg'}, {src: 'Isuzu Dmax ’02 – ’11. 33″ – 35″ c.jpg'}],
 
   tags: [],
 } satisfies Product;

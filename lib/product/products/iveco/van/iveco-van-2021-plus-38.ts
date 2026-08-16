@@ -31,7 +31,7 @@ export const ivecoVan_2021Plus_38 = {
     maxInches: 10,
   },
 
-  images: [],
+  images: [{src: '38.jpg'}, {src: 'Iveco 1.jpeg'}, {src: 'Iveco 2.jpeg'}],
 
   tags: [],
 } satisfies Product;

@@ -31,7 +31,7 @@ export const toyotaHilux_20072016_38 = {
     minInches: 12
   },
 
-  images: [],
+  images: [{src: 'Toyota Hilux ’06 – ’15. 38″ a.jpg'}, {src: 'Toyota Hilux ’06 – ’15. 38″ b.jpg'}],
 
   tags: [],
 } satisfies Product;

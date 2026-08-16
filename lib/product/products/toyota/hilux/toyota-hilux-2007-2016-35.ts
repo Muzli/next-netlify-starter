@@ -32,7 +32,7 @@ export const toyotaHilux_20072016_35 = {
     maxInches: 10,
   },
 
-  images: [],
+  images: [{src: 'Toyota Hilux ’12 – ’15. 33″ – 35″ a.jpg'}, {src: 'Toyota Hilux ’12 – ’15. 33″ – 35″ b.jpg'}, {src: 'Toyota Hilux ’12 – ’15. 33″ – 35″ c.jpg'}],
 
   tags: [],
 } satisfies Product;

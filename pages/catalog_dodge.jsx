@@ -29,6 +29,7 @@ export default function CatalogDodge() {
               <Table className="catalog-table">
                 <thead>
                   <tr>
+                    <th className="p-1 p-md-3"></th>
                     <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
                     <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
                     <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>

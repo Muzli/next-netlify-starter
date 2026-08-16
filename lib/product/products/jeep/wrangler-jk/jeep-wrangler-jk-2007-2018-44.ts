@@ -32,7 +32,7 @@ export const jeepWranglerJk_20072018_44 = {
     textIs: '+21 cm E28',
   },
 
-  images: [],
+  images: [{src: 'Wranger 44.jpg'}, {src: 'Wrangler 44 3.jpg'}, {src: 'Wrangler 44 3 b.jpeg'}],
 
   tags: [],
 } satisfies Product;

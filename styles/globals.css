@@ -134,6 +134,24 @@ code {
   height: 3em;
 }
 
+.product-thumbnail {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product-gallery {
+  width: 70vw;
+}
+
+.product-image {
+  width: 30vw;
+  height: 20vw;
+  max-height: 500px;
+  object-fit: cover;
+}
+
 
 @media (max-width: 600px) {
   .catalog-table {
@@ -174,5 +192,5 @@ code {
 
   .navbar-submenu-header {
     padding: 0 var(--bs-dropdown-item-padding-x);
-  }
+  }  
 }

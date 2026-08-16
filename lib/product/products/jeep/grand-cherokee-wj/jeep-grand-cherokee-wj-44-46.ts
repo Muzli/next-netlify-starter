@@ -22,7 +22,7 @@ export const jeepGrandCherokeeWj_44_46 = {
     maxInches: 46,
   },
 
-  images: [],
+  images: [{src: 'Grand Cherokee 44-46.jpg'}],
 
   tags: [],
 } satisfies Product;

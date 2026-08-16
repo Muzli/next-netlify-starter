@@ -26,7 +26,7 @@ export const suzukiJimny_2018Plus_3335 = {
     maxInches: 35,
   },
 
-  images: [],
+  images: [{src: 'Vitara 33-35 b.jpeg'}],
 
   tags: [],
 } satisfies Product;

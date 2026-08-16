@@ -25,17 +25,13 @@ export default function CatalogFord() {
       <CustomNavbar />
       <main>
       <BrandCarousel brand="Ford" number_of_images="7"/>      
-      <Row className="align-items-start mt-3 me-0  mb-2">
-        <Col className="col-12 text-center">
-          <a href="/gallery_ford"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
-        </Col>
-      </Row>  
       <Row className="align-items-start me-0">
           <Col className="col-12 text-center mb-2">
             <h1>Ford</h1>
             <Table className="catalog-table">
               <thead>
                 <tr>
+                  <th className="p-1 p-md-3"></th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>

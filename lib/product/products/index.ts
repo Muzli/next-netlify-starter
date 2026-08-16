@@ -33,3 +33,7 @@ export const products = [
   ...toyotaProducts,
   ...volkswagenProducts,
 ] satisfies Product[];
+
+export function getProductBySlug(slug: string) {
+  return products.find((product) => product.slug === slug);
+}

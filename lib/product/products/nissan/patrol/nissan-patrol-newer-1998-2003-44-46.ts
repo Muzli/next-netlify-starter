@@ -5,13 +5,13 @@ export const nissanPatrolNewer_19982003_4446 = {
   slug: "nissan-patrol-newer-1998-2003-44-46",
 
   shortName: {
-    en: "Patrol newer",
-    is: "Patrol nýrri",
+    en: "Patrol",
+    is: "Patrol",
   },
 
   name: {
-    en: "Nissan Patrol Newer 1998-2003 44\"-46\"",
-    is: "Nissan Patrol Newer 1998-2003 44\"-46\"",
+    en: "Nissan Patrol 1998-2003 44\"-46\"",
+    is: "Nissan Patrol1998-2003 44\"-46\"",
   },
 
   modelId: "patrol",
@@ -27,7 +27,7 @@ export const nissanPatrolNewer_19982003_4446 = {
     maxInches: 46,
   },
 
-  images: [],
+  images: [{src: 'Patrol 3.jpeg'}, {src: 'Patrol 1.jpeg'}],
 
   tags: [],
 } satisfies Product;

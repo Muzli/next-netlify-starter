@@ -26,7 +26,7 @@ export const fordF150_2021Plus_3740 = {
     maxInches: 40,
   },
 
-  images: [],
+  images: [{src: 'Ford Lightning 37 b.jpeg'}, {src: 'Ford Lightning 37 c.jpeg'}],
 
   tags: [],
 } satisfies Product;

@@ -26,7 +26,7 @@ export const dodgeRam3500_2019Plus_3740 = {
     maxInches: 40,
   },
 
-  images: [],
+  images: [{src: 'Dodge Ram ’19. 37″ 2500 & 3500 a.jpg'}, {src: 'Dodge Ram ’19. 37″ 2500 & 3500 b.jpg'}],
 
   tags: [],
 } satisfies Product;

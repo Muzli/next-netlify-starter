@@ -31,7 +31,7 @@ export const toyotaLc150_20152018Modification_2008Plus_38 = {
     maxInches: 12,
   },
 
-  images: [],
+  images: [{src: 'lc150_38.jpg'}],
 
   tags: [],
 } satisfies Product;

@@ -26,7 +26,7 @@ export const fordF350_2017Plus_37 = {
     maxInches: 37,
   },
 
-  images: [],
+  images: [{ src:'Ford F350 ’17 – ’present. 37″ – 40″ b.jpg' }, { src:'Ford F350 ’17 – ’present. 37″ – 40″ c.jpg' }, { src:'Ford F350 ’17 – ’present. 37″ – 40″.jpg' }],
 
   tags: [],
 } satisfies Product;

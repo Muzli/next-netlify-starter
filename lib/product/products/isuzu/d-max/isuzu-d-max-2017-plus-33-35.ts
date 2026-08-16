@@ -26,12 +26,12 @@ export const isuzuDMax_2017Plus_3335 = {
     maxInches: 35,
   },
 
-  rimwidth: {
+  rimWidth: {
     minInches: 10,
     maxInches: 10,
   },
 
-  images: [],
+  images: [{src: 'Isuzu Dmax ’16 – . 33″ – 35″ a.jpg'}, {src: 'Isuzu Dmax ’16 – . 33″ – 35″ b.jpg'}],
 
   tags: [],
 } satisfies Product;

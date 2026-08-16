@@ -31,7 +31,7 @@ export const toyotaLc150_20152018Modification_2008Plus_35 = {
     maxInches: 10,
   },
 
-  images: [],
+  images: [{src: 'Land Cruiser 150. 33″ – 35″ a.jpg'}, {src: 'Land Cruiser 150. 33″ – 35″ c.jpg'}, {src: 'Land Cruiser 150. 33″ – 35″ d.jpg'}],
 
   tags: [],
 } satisfies Product;

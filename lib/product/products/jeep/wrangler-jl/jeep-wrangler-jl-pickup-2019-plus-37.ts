@@ -31,7 +31,7 @@ export const jeepWranglerJlPickup_2019Plus_37 = {
     textIs: '+12 cm'
   },
 
-  images: [],
+  images: [{src: 'carousel_6.jpg'}],
 
   tags: [],
 } satisfies Product;

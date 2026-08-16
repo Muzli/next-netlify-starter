@@ -5,13 +5,13 @@ export const nissanPatrolNewer_20052010_35 = {
   slug: "nissan-patrol-newer-2005-2010-35",
 
   shortName: {
-    en: "Patrol newer",
-    is: "Patrol nýrri",
+    en: "Patrol",
+    is: "Patrol",
   },
 
   name: {
-    en: "Nissan Patrol Newer 2005-2010 35\"",
-    is: "Nissan Patrol Newer 2005-2010 35\"",
+    en: "Nissan Patrol 2005-2010 35\"",
+    is: "Nissan Patrol 2005-2010 35\"",
   },
 
   modelId: "patrol",
@@ -32,7 +32,7 @@ export const nissanPatrolNewer_20052010_35 = {
     maxInches: 10,
   },
 
-  images: [],
+  images: [{src: 'Nissan Patrol ’05- ’09. 33″ – 35″ a.jpg'}, {src: 'Nissan Patrol ’05- ’09. 33″ – 35″ b.jpg'}],
 
   tags: [],
 } satisfies Product;

@@ -5,13 +5,13 @@ export const nissanPatrolNewer_20052010_44 = {
   slug: "nissan-patrol-newer-2005-2010-44",
 
   shortName: {
-    en: "Patrol newer",
-    is: "Patrol nýrri",
+    en: "Patrol",
+    is: "Patrol",
   },
 
   name: {
-    en: "Nissan Patrol Newer 2005-2010 44\"",
-    is: "Nissan Patrol Newer 2005-2010 44\"",
+    en: "Nissan Patrol 2005-2010 44\"",
+    is: "Nissan Patrol 2005-2010 44\"",
   },
 
   modelId: "patrol",

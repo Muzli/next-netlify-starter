@@ -22,7 +22,7 @@ export const toyotaLc100_4446_a = {
     maxInches: 46,
   },
 
-  images: [],
+  images: [{src: 'LC100 44.jpg'}],
 
   tags: [],
 } satisfies Product;

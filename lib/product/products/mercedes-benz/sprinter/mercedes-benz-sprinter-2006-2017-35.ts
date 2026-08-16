@@ -27,7 +27,7 @@ export const mercedesBenzSprinter_20062017_35 = {
     maxInches: 35,
   },
 
-  images: [],
+  images: [{src: 'MB Sprinter ’10 – ’18. 33″ – 35″.jpg'}],
 
   tags: [],
 } satisfies Product;

@@ -26,7 +26,7 @@ export const toyotaLc250_2025Plus_3537 = {
     maxInches: 37,
   },
 
-  images: [],
+  images: [{src: 'LC250 35-37.jpg'}, {src: 'LC250 35-37 (flottur bíll) c.jpg'}, {src: 'LC250 35-37 (flottur bíll) d.jpg'}, {src: 'LC250 35-37 (flottur bíll) b.jpg'}],
 
   tags: [],
 } satisfies Product;

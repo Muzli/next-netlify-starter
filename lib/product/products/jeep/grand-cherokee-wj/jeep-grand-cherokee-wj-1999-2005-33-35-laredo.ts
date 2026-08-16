@@ -27,7 +27,7 @@ export const jeepGrandCherokeeWj_19992005_3335_laredo = {
     maxInches: 35,
   },
 
-  images: [],
+  images: [{src: 'Grand Cherokee WJ ’99 – ’04. 33″ – 35” a.jpg'}, {src: 'Grand Cherokee WJ ’99 – ’04. 33″ – 35” b.jpg'}, {src: 'Grand Cherokee WJ ’99 – ’04. 33″ – 35” c.jpg'}],
 
   tags: [],
 } satisfies Product;

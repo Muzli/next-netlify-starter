@@ -26,7 +26,7 @@ export const toyotaLc250_2025Plus_42 = {
     maxInches: 42,
   },
 
-  images: [],
+  images: [{src: 'LC250 42 b.jpg'}, {src: 'LC250 42.jpg'}, {src: 'LC250 40-42 b.jpg'}, {src: 'LC250 40-42.jpg'}],
 
   tags: [],
 } satisfies Product;

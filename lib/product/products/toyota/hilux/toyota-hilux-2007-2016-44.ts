@@ -31,7 +31,7 @@ export const toyotaHilux_20072016_44 = {
     minInches: 12
   },
 
-  images: [],
+  images: [{src: 'Hilux 44.jpg'}, {src: 'Hilux 2.jpeg'}, {src: 'Hilux 3.jpeg'}],
 
   tags: [],
 } satisfies Product;

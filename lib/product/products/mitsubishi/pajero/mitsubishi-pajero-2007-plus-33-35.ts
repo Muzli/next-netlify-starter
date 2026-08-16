@@ -31,7 +31,7 @@ export const mitsubishiPajero_2007Plus_3335 = {
     maxInches: 10,
   },
 
-  images: [],
+  images: [{src: 'Mitsubishi Pajero ’07 – ’15. 33″ – 35″ a.jpg'}, {src: 'Mitsubishi Pajero ’07 – ’15. 33″ – 35″ b.jpg'}, {src: 'Mitsubishi Pajero ’07 – ’15. 33″ – 35″ c.jpg'}],
 
   tags: [],
 } satisfies Product;

@@ -5,13 +5,13 @@ export const toyotaHiluxNewBack_2017Plus_35 = {
   slug: "toyota-hilux-new-back-2017-plus-35",
 
   shortName: {
-    en: "Hilux (New back 2020)",
-    is: "Hilux (Nýtt bak 2020)",
+    en: "Hilux",
+    is: "Hilux",
   },
 
   name: {
-    en: "Toyota Hilux (New Back 2020) 2017+ 35\"",
-    is: "Toyota Hilux (Nýtt bak 2020) 2017+ 35\"",
+    en: "Toyota Hilux 2017+ 35\"",
+    is: "Toyota Hilux 2017+ 35\"",
   },
 
   modelId: "hilux",
@@ -31,7 +31,7 @@ export const toyotaHiluxNewBack_2017Plus_35 = {
     maxInches: 10,
   },
 
-  images: [],
+  images: [{src: 'Toyota Hilux ’16. 33″ – 35″ a.jpg'}, {src: 'Toyota Hilux ’16. 33″ – 35″ b.jpg'}, {src: 'Toyota Hilux ’16. 33″ – 35″ c.jpg'}],
 
   tags: [],
 } satisfies Product;

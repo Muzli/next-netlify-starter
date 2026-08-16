@@ -27,7 +27,7 @@ export const chevroletSilverado2500_20002006_3335 = {
     maxInches: 35,
   },
 
-  images: [],
+  images: [{src: 'Chevrolet GMC Silverado 00 – 05 33 – 35 a.jpg'}, {src: 'Chevrolet GMC Silverado 00 – 05 33 – 35 b.jpg'}],
 
   tags: [],
 } satisfies Product;

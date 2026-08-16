@@ -27,7 +27,7 @@ export const jeepGrandCherokeeWk2_20112021_35 = {
     maxInches: 35,
   },
 
-  images: [],
+  images: [{src: 'Grand Cherokee WK2 ’10 – ’20. 33″ – 35″ a.jpg'}, {src: 'Grand Cherokee WK2 ’10 – ’20. 33″ – 35″ b.jpg'}],
 
   tags: [],
 } satisfies Product;
