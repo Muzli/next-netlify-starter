@@ -5,6 +5,9 @@ import { Row, Col } from 'react-bootstrap';
 import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
+import ProductRows from '../lib/product/productRows'; 
+import { chevroletProducts } from '../lib/product/products/chevrolet';
+
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -27,6 +30,7 @@ export default function CatalogChevrolet() {
             <Table className="catalog-table">
               <thead>
                 <tr>
+                  <th className="p-1 p-md-3"></th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>
@@ -35,34 +39,10 @@ export default function CatalogChevrolet() {
                 </tr>
               </thead>
               <tbody>
-              <tr>
-                  <td className="p-1 p-md-3">Silverado 2500</td>
-                  <td className="p-1 p-md-3">2000-2006</td>
-                  <td className="p-1 p-md-3">33"-35"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Silverado 2500</td>
-                  <td className="p-1 p-md-3">2000-2006</td>
-                  <td className="p-1 p-md-3">38"-44"</td>
-                  <td className="p-1 p-md-3">14"</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Silverado 3500</td>
-                  <td className="p-1 p-md-3">2015-2018</td>
-                  <td className="p-1 p-md-3">37"</td>
-                  <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Silverado 3500</td>
-                  <td className="p-1 p-md-3">2019-</td>
-                  <td className="p-1 p-md-3">37"</td>
-                  <td className="p-1 p-md-3">9"</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
+                <ProductRows
+                  products={chevroletProducts}
+                  language={language}
+                /> 
               </tbody>
             </Table>
           </Col>

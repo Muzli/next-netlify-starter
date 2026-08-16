@@ -5,6 +5,8 @@ import { Row, Col } from 'react-bootstrap';
 import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
+import ProductRows from '../lib/product/productRows'; 
+import { mitsubishiProducts } from '../lib/product/products/mitsubishi';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -27,6 +29,7 @@ export default function CatalogMitsubishi() {
             <Table className="catalog-table">
               <thead>
                 <tr>
+                  <th className="p-1 p-md-3"></th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>
@@ -35,41 +38,10 @@ export default function CatalogMitsubishi() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                    <td className="p-1 p-md-3">Pajero</td>
-                    <td className="p-1 p-md-3">2007-</td>
-                    <td className="p-1 p-md-3">33"-35"</td>
-                    <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Pajero</td>
-                    <td className="p-1 p-md-3">2007-</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["running_board"]}</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Pajero</td>
-                    <td className="p-1 p-md-3">2007-</td>
-                    <td className="p-1 p-md-3">38"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Pajero</td>
-                    <td className="p-1 p-md-3">2007-</td>
-                    <td className="p-1 p-md-3">44"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">L200</td>
-                    <td className="p-1 p-md-3">2019-</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>                
+                <ProductRows
+                  products={mitsubishiProducts}
+                  language={language}
+                />                
               </tbody>
             </Table>
           </Col>

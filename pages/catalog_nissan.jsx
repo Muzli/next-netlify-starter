@@ -6,6 +6,8 @@ import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
 import BrandCarousel from '@components/carousel/brandCarousel';
+import ProductRows from '../lib/product/productRows'; 
+import { nissanProducts } from '../lib/product/products/nissan';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -29,6 +31,7 @@ export default function CatalogNissan() {
             <Table className="catalog-table">
               <thead>
                 <tr>
+                  <th className="p-1 p-md-3"></th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>
@@ -37,76 +40,10 @@ export default function CatalogNissan() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                    <td className="p-1 p-md-3">Navara dc</td>
-                    <td className="p-1 p-md-3">1998-2004</td>
-                    <td className="p-1 p-md-3">33"-35"</td>
-                    <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Navara xc</td>
-                    <td className="p-1 p-md-3">1998-20004</td>
-                    <td className="p-1 p-md-3">33"-35"</td>
-                    <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Navara</td>
-                    <td className="p-1 p-md-3">2005-2017</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Navara</td>
-                    <td className="p-1 p-md-3">2005-2017</td>
-                    <td className="p-1 p-md-3">38"</td>
-                    <td className="p-1 p-md-3">12"</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Navara</td>
-                    <td className="p-1 p-md-3">2018-</td>
-                    <td className="p-1 p-md-3">38"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Navara AT</td>
-                    <td className="p-1 p-md-3">2018-</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3"></td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Patrol {Dictionary()[language]["catalog"]["newer"]}</td>
-                    <td className="p-1 p-md-3">1998-2003</td>
-                    <td className="p-1 p-md-3">44"-46</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Patrol {Dictionary()[language]["catalog"]["newer"]}</td>
-                    <td className="p-1 p-md-3">2005-2010</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Patrol {Dictionary()[language]["catalog"]["newer"]}</td>
-                    <td className="p-1 p-md-3">2005-2010</td>
-                    <td className="p-1 p-md-3">44"</td>
-                    <td className="p-1 p-md-3">14"-</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Pathfinder</td>
-                    <td className="p-1 p-md-3">2005-</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>                
+                <ProductRows
+                  products={nissanProducts}
+                  language={language}
+                />                
               </tbody>
             </Table>
           </Col>

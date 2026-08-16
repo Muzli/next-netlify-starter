@@ -5,6 +5,8 @@ import { Row, Col } from 'react-bootstrap';
 import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
+import ProductRows from '../lib/product/productRows'; 
+import { scautProducts } from '../lib/product/products/scaut';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -27,6 +29,7 @@ export default function CatalogScaut() {
             <Table className="catalog-table">
               <thead>
                 <tr>
+                  <th className="p-1 p-md-3"></th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>
@@ -35,13 +38,10 @@ export default function CatalogScaut() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                    <td className="p-1 p-md-3">Scaut</td>
-                    <td className="p-1 p-md-3">1975-</td>
-                    <td className="p-1 p-md-3">44"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>                
+                <ProductRows
+                  products={scautProducts}
+                  language={language}
+                />              
               </tbody>
             </Table>
           </Col>

@@ -6,6 +6,8 @@ import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
 import BrandCarousel from '@components/carousel/brandCarousel';
+import ProductRows from '../lib/product/productRows'; 
+import { jeepProducts } from '../lib/product/products/jeep';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -23,17 +25,13 @@ export default function CatalogJeep() {
       <CustomNavbar />
       <main>
         <BrandCarousel brand="Jeep" number_of_images="6"/>        
-        <Row className="align-items-start mt-3 me-0  mb-2">
-          <Col className="col-12 text-center">
-            <a href="/gallery_jeep"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
-          </Col>
-        </Row>
         <Row className="align-items-start me-0">
           <Col className="col-12 text-center mb-2">
             <h1>JEEP</h1>
             <Table className="catalog-table">
               <thead>
                 <tr>
+                  <th className="p-1 p-md-3"></th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>
@@ -42,97 +40,10 @@ export default function CatalogJeep() {
                 </tr>
               </thead>
               <tbody>
-              <tr>
-                  <td className="p-1 p-md-3">Grand Cherokee WJ</td>
-                  <td className="p-1 p-md-3">1999-2005</td>
-                  <td className="p-1 p-md-3">33"-35" Limited</td>
-                  <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Grand Cherokee WJ</td>
-                  <td className="p-1 p-md-3">1999-2005</td>
-                  <td className="p-1 p-md-3">33"-35" Laredo</td>
-                  <td className="p-1 p-md-3">10"</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Grand Cherokee WJ</td>
-                  <td className="p-1 p-md-3">1999-2005</td>
-                  <td className="p-1 p-md-3">38"-44"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Grand Cherokee WK</td>
-                  <td className="p-1 p-md-3">2006-2010</td>
-                  <td className="p-1 p-md-3">33"-35"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Grand Cherokee-{Dictionary()[language]["catalog"]["wide_flares"]} WJ/WK</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">44"-46"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Grand Cherokee WK2</td>
-                  <td className="p-1 p-md-3">2011-2021</td>
-                  <td className="p-1 p-md-3">35"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Wrangler JK</td>
-                  <td className="p-1 p-md-3">2007-2018</td>
-                  <td className="p-1 p-md-3">40"</td>
-                  <td className="p-1 p-md-3">+9 cm</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Wrangler JK</td>
-                  <td className="p-1 p-md-3">2007-2018</td>
-                  <td className="p-1 p-md-3">44"</td>
-                  <td className="p-1 p-md-3">+21 E28 cm</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Wrangler JL</td>
-                  <td className="p-1 p-md-3">2019-</td>
-                  <td className="p-1 p-md-3">37"</td>
-                  <td className="p-1 p-md-3">+4,5 cm</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Wrangler JL</td>
-                  <td className="p-1 p-md-3">2019-</td>
-                  <td className="p-1 p-md-3">37"</td>
-                  <td className="p-1 p-md-3">+9 cm</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Wrangler JL</td>
-                  <td className="p-1 p-md-3">2019-</td>
-                  <td className="p-1 p-md-3">37"</td>
-                  <td className="p-1 p-md-3">+12 cm</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Wrangler JL</td>
-                  <td className="p-1 p-md-3">2019-</td>
-                  <td className="p-1 p-md-3">40"</td>
-                  <td className="p-1 p-md-3">+9 cm</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                  <td className="p-1 p-md-3">Wrangler JL {Dictionary()[language]["catalog"]["pickup"]}</td>
-                  <td className="p-1 p-md-3">2019-</td>
-                  <td className="p-1 p-md-3">37"</td>
-                  <td className="p-1 p-md-3">+12 cm</td>
-                  <td className="p-1 p-md-3">- kr.</td>
-                </tr>
+                <ProductRows
+                  products={jeepProducts}
+                  language={language}
+                />
               </tbody>
             </Table>
           </Col>

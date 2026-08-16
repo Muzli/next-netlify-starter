@@ -5,6 +5,8 @@ import { Row, Col } from 'react-bootstrap';
 import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
+import ProductRows from '../lib/product/productRows'; 
+import { grenadierProducts } from '../lib/product/products/grenadier';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -27,6 +29,7 @@ export default function CatalogGrenadier() {
             <Table className="catalog-table">
               <thead>
                 <tr>
+                  <th className="p-1 p-md-3"></th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>
@@ -35,20 +38,10 @@ export default function CatalogGrenadier() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                    <td className="p-1 p-md-3">Grenadier</td>
-                    <td className="p-1 p-md-3">2024</td>
-                    <td className="p-1 p-md-3">37"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Grenadier</td>
-                    <td className="p-1 p-md-3">2024</td>
-                    <td className="p-1 p-md-3">44"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
+                <ProductRows
+                  products={grenadierProducts}
+                  language={language}
+                />
               </tbody>
             </Table>
           </Col>

@@ -6,6 +6,8 @@ import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
 import BrandCarousel from '@components/carousel/brandCarousel';
+import ProductRows from '../lib/product/productRows'; 
+import { mussoProducts } from '../lib/product/products/musso';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -23,17 +25,13 @@ export default function CatalogMusso() {
       <CustomNavbar />
       <main>      
       <BrandCarousel brand="Musso" number_of_images="6"/>  
-      <Row className="align-items-start mt-3 me-0  mb-2">
-        <Col className="col-12 text-center">
-          <a href="/gallery_musso"><h3>{Dictionary()[language]["catalog"]["all_photos"]}</h3></a>
-        </Col>
-      </Row>
       <Row className="align-items-start me-0">
           <Col className="col-12 text-center mb-2">
             <h1>Musso & Rexton</h1>
             <Table className="catalog-table">
               <thead>
                 <tr>
+                  <th className="p-1 p-md-3"></th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>
@@ -42,20 +40,10 @@ export default function CatalogMusso() {
                 </tr>
               </thead>
               <tbody>
-              <tr>
-                  <td className="p-1 p-md-3">Rexton</td>
-                  <td className="p-1 p-md-3">2002-2017</td>
-                  <td className="p-1 p-md-3">33"-35"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-              </tr>
-              <tr>
-                  <td className="p-1 p-md-3">Rexton</td>
-                  <td className="p-1 p-md-3">2018-</td>
-                  <td className="p-1 p-md-3">35"-37"</td>
-                  <td className="p-1 p-md-3"></td>
-                  <td className="p-1 p-md-3">- kr.</td>
-              </tr>
+                <ProductRows
+                  products={mussoProducts}
+                  language={language}
+                />
               </tbody>
             </Table>
           </Col>

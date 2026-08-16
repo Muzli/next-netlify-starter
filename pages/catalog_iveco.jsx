@@ -6,6 +6,8 @@ import LanguageContext from '../utilities/Language/languageContext.js';
 import Dictionary from '../utilities/Language/dictionary.js';
 import Table from 'react-bootstrap/Table';
 import BrandCarousel from '@components/carousel/brandCarousel';
+import ProductRows from '../lib/product/productRows'; 
+import { ivecoProducts } from '../lib/product/products/iveco';
 
 // Vörulistasíðan er með filter fyrir
 // ->Tegund
@@ -29,6 +31,7 @@ export default function CatalogIveco() {
             <Table className="catalog-table">
               <thead>
                 <tr>
+                  <th className="p-1 p-md-3"></th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["type"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["year"]}</th>
                   <th className="p-1 p-md-3">{Dictionary()[language]["catalog"]["tire_size"]}</th>
@@ -37,34 +40,10 @@ export default function CatalogIveco() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                    <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["pickup"]} - {Dictionary()[language]["catalog"]["front_flares"]}</td>
-                    <td className="p-1 p-md-3">2017-</td>
-                    <td className="p-1 p-md-3">37"-40"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">{Dictionary()[language]["catalog"]["rear_flares_modification"]}</td>
-                    <td className="p-1 p-md-3">2017-</td>
-                    <td className="p-1 p-md-3">35"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Van</td>
-                    <td className="p-1 p-md-3">2021-</td>
-                    <td className="p-1 p-md-3">38"</td>
-                    <td className="p-1 p-md-3">10"</td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
-                <tr>
-                    <td className="p-1 p-md-3">Van</td>
-                    <td className="p-1 p-md-3">2021-</td>
-                    <td className="p-1 p-md-3">44"</td>
-                    <td className="p-1 p-md-3"></td>
-                    <td className="p-1 p-md-3">- kr.</td>
-                </tr>
+                <ProductRows
+                  products={ivecoProducts}
+                  language={language}
+                />
               </tbody>
             </Table>
           </Col>
