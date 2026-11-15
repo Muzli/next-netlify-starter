@@ -69,7 +69,9 @@ function CustomNavbar() {
           
             <Nav.Link as={Link} href="/tjonaskodun">{Dictionary()[language]["navbar"]["inspection"]}</Nav.Link>
           
-            <Nav.Link as={Link} href="/myndasafn">{Dictionary()[language]["navbar"]["gallery"]}</Nav.Link>
+            <NavDropdown title={Dictionary()[language]["navbar"]["gallery"]} id="myndasafn-nav-dropdown">
+              <NavDropdown.Item as={Link} href="/myndasafn">40 ára afmælissýning Ferðaklúbbsins 4x4</NavDropdown.Item>
+            </NavDropdown>
           
           <Nav.Link as={Link} href="#about">{Dictionary()[language]["navbar"]["about"]}</Nav.Link>
         </Nav>
